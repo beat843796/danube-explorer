@@ -1,0 +1,1216 @@
+{
+  "description": "Axis-aligned bounding rectangles covering the Danube river main course (Donaueschingen \u2192 Sulina) plus the Vienna Donaukanal. Tiled chain: every consecutive pair shares an exact edge (no overlaps, no gaps). 1 km safety margin applied only on outer edges. Cut placements have been locally optimized to minimize total tile area.",
+  "method": "DP-based cum_km segmentation; cut directions chosen by local river heading; cut values then locally optimized by sliding to minimize combined area of adjacent pairs while respecting shared-edge tiling and full coverage.",
+  "source": "Generated from danube.geojson (OpenStreetMap relation/89652, ODbL).",
+  "safety_margin_km": 1.0,
+  "recommended_K": 20,
+  "comparison_table": [
+    {
+      "K": 15,
+      "total_area_km2": 73298,
+      "avg_area_per_rect_km2": 4886
+    },
+    {
+      "K": 20,
+      "total_area_km2": 61199,
+      "avg_area_per_rect_km2": 3059
+    },
+    {
+      "K": 25,
+      "total_area_km2": 50485,
+      "avg_area_per_rect_km2": 2019
+    },
+    {
+      "K": 30,
+      "total_area_km2": 44175,
+      "avg_area_per_rect_km2": 1472
+    }
+  ],
+  "options": {
+    "15": {
+      "rectangles": [
+        {
+          "index": 0,
+          "minLat": 47.903157,
+          "maxLat": 48.253647,
+          "minLng": 8.503395,
+          "maxLng": 9.713363,
+          "span_lat_deg": 0.3505,
+          "span_lng_deg": 1.21,
+          "approx_area_km2": 3491
+        },
+        {
+          "index": 1,
+          "minLat": 48.236194,
+          "maxLat": 48.691459,
+          "minLng": 9.713363,
+          "maxLng": 10.722929,
+          "span_lat_deg": 0.4553,
+          "span_lng_deg": 1.0096,
+          "approx_area_km2": 3755
+        },
+        {
+          "index": 2,
+          "minLat": 48.674266,
+          "maxLat": 49.040383,
+          "minLng": 10.722929,
+          "maxLng": 13.113607,
+          "span_lat_deg": 0.3661,
+          "span_lng_deg": 2.3907,
+          "approx_area_km2": 7095
+        },
+        {
+          "index": 3,
+          "minLat": 48.394237,
+          "maxLat": 48.690779,
+          "minLng": 13.113607,
+          "maxLng": 14.005248,
+          "span_lat_deg": 0.2965,
+          "span_lng_deg": 0.8916,
+          "approx_area_km2": 2157
+        },
+        {
+          "index": 4,
+          "minLat": 48.086689,
+          "maxLat": 48.418301,
+          "minLng": 14.005248,
+          "maxLng": 17.152625,
+          "span_lat_deg": 0.3316,
+          "span_lng_deg": 3.1474,
+          "approx_area_km2": 8563
+        },
+        {
+          "index": 5,
+          "minLat": 47.681495,
+          "maxLat": 48.08733,
+          "minLng": 17.152625,
+          "maxLng": 18.682274,
+          "span_lat_deg": 0.4058,
+          "span_lng_deg": 1.5296,
+          "approx_area_km2": 5129
+        },
+        {
+          "index": 6,
+          "minLat": 45.277873,
+          "maxLat": 47.831454,
+          "minLng": 18.682274,
+          "maxLng": 19.133669,
+          "span_lat_deg": 2.5536,
+          "span_lng_deg": 0.4514,
+          "approx_area_km2": 9766
+        },
+        {
+          "index": 7,
+          "minLat": 44.867117,
+          "maxLat": 45.290733,
+          "minLng": 19.133669,
+          "maxLng": 20.365866,
+          "span_lat_deg": 0.4236,
+          "span_lng_deg": 1.2322,
+          "approx_area_km2": 4541
+        },
+        {
+          "index": 8,
+          "minLat": 44.638074,
+          "maxLat": 44.878991,
+          "minLng": 20.365866,
+          "maxLng": 21.910336,
+          "span_lat_deg": 0.2409,
+          "span_lng_deg": 1.5445,
+          "approx_area_km2": 3255
+        },
+        {
+          "index": 9,
+          "minLat": 44.287442,
+          "maxLat": 44.723929,
+          "minLng": 21.910336,
+          "maxLng": 22.7763,
+          "span_lat_deg": 0.4365,
+          "span_lng_deg": 0.866,
+          "approx_area_km2": 3321
+        },
+        {
+          "index": 10,
+          "minLat": 43.776564,
+          "maxLat": 44.287442,
+          "minLng": 22.659045,
+          "maxLng": 23.048469,
+          "span_lat_deg": 0.5109,
+          "span_lng_deg": 0.3894,
+          "approx_area_km2": 1762
+        },
+        {
+          "index": 11,
+          "minLat": 43.609833,
+          "maxLat": 43.868233,
+          "minLng": 23.048469,
+          "maxLng": 25.984771,
+          "span_lat_deg": 0.2584,
+          "span_lng_deg": 2.9363,
+          "approx_area_km2": 6754
+        },
+        {
+          "index": 12,
+          "minLat": 43.868908,
+          "maxLat": 44.214764,
+          "minLng": 25.984771,
+          "maxLng": 27.763687,
+          "span_lat_deg": 0.3459,
+          "span_lng_deg": 1.7789,
+          "approx_area_km2": 5449
+        },
+        {
+          "index": 13,
+          "minLat": 44.211511,
+          "maxLat": 45.144813,
+          "minLng": 27.763687,
+          "maxLng": 28.123694,
+          "span_lat_deg": 0.9333,
+          "span_lng_deg": 0.36,
+          "approx_area_km2": 2944
+        },
+        {
+          "index": 14,
+          "minLat": 45.144813,
+          "maxLat": 45.476388,
+          "minLng": 27.930103,
+          "maxLng": 29.780501,
+          "span_lat_deg": 0.3316,
+          "span_lng_deg": 1.8504,
+          "approx_area_km2": 5316
+        }
+      ],
+      "total_area_km2": 73298,
+      "rectangle_count": 15,
+      "avg_area_per_rect_km2": 4886
+    },
+    "20": {
+      "rectangles": [
+        {
+          "index": 0,
+          "minLat": 47.903157,
+          "maxLat": 48.159525,
+          "minLng": 8.503406,
+          "maxLng": 9.500798,
+          "span_lat_deg": 0.2564,
+          "span_lng_deg": 0.9974,
+          "approx_area_km2": 2107
+        },
+        {
+          "index": 1,
+          "minLat": 48.159525,
+          "maxLat": 48.557569,
+          "minLng": 9.475217,
+          "maxLng": 10.398911,
+          "span_lat_deg": 0.398,
+          "span_lng_deg": 0.9237,
+          "approx_area_km2": 3010
+        },
+        {
+          "index": 2,
+          "minLat": 48.543342,
+          "maxLat": 48.773317,
+          "minLng": 10.398911,
+          "maxLng": 11.568459,
+          "span_lat_deg": 0.23,
+          "span_lng_deg": 1.1695,
+          "approx_area_km2": 2189
+        },
+        {
+          "index": 3,
+          "minLat": 48.759082,
+          "maxLat": 49.040383,
+          "minLng": 11.568459,
+          "maxLng": 13.013097,
+          "span_lat_deg": 0.2813,
+          "span_lng_deg": 1.4446,
+          "approx_area_km2": 3291
+        },
+        {
+          "index": 4,
+          "minLat": 48.394237,
+          "maxLat": 48.777221,
+          "minLng": 13.013097,
+          "maxLng": 14.002248,
+          "span_lat_deg": 0.383,
+          "span_lng_deg": 0.9892,
+          "approx_area_km2": 3088
+        },
+        {
+          "index": 5,
+          "minLat": 48.155412,
+          "maxLat": 48.418301,
+          "minLng": 14.002248,
+          "maxLng": 16.515726,
+          "span_lat_deg": 0.2629,
+          "span_lng_deg": 2.5135,
+          "approx_area_km2": 5417
+        },
+        {
+          "index": 6,
+          "minLat": 47.681495,
+          "maxLat": 48.18234,
+          "minLng": 16.515726,
+          "maxLng": 17.635364,
+          "span_lat_deg": 0.5008,
+          "span_lng_deg": 1.1196,
+          "approx_area_km2": 4629
+        },
+        {
+          "index": 7,
+          "minLat": 47.692405,
+          "maxLat": 47.831454,
+          "minLng": 17.635364,
+          "maxLng": 19.146106,
+          "span_lat_deg": 0.139,
+          "span_lng_deg": 1.5107,
+          "approx_area_km2": 1740
+        },
+        {
+          "index": 8,
+          "minLat": 46.173319,
+          "maxLat": 47.692405,
+          "minLng": 18.846242,
+          "maxLng": 19.137431,
+          "span_lat_deg": 1.5191,
+          "span_lng_deg": 0.2912,
+          "approx_area_km2": 3722
+        },
+        {
+          "index": 9,
+          "minLat": 45.289782,
+          "maxLat": 46.173319,
+          "minLng": 18.669819,
+          "maxLng": 19.105669,
+          "span_lat_deg": 0.8835,
+          "span_lng_deg": 0.4358,
+          "approx_area_km2": 3312
+        },
+        {
+          "index": 10,
+          "minLat": 45.159093,
+          "maxLat": 45.305402,
+          "minLng": 19.105669,
+          "maxLng": 20.233273,
+          "span_lat_deg": 0.1463,
+          "span_lng_deg": 1.1276,
+          "approx_area_km2": 1431
+        },
+        {
+          "index": 11,
+          "minLat": 44.850674,
+          "maxLat": 45.172925,
+          "minLng": 20.233273,
+          "maxLng": 20.393237,
+          "span_lat_deg": 0.3223,
+          "span_lng_deg": 0.16,
+          "approx_area_km2": 449
+        },
+        {
+          "index": 12,
+          "minLat": 44.634611,
+          "maxLat": 44.864708,
+          "minLng": 20.393237,
+          "maxLng": 21.945039,
+          "span_lat_deg": 0.2301,
+          "span_lng_deg": 1.5518,
+          "approx_area_km2": 3124
+        },
+        {
+          "index": 13,
+          "minLat": 44.287442,
+          "maxLat": 44.723929,
+          "minLng": 21.945039,
+          "maxLng": 22.7763,
+          "span_lat_deg": 0.4365,
+          "span_lng_deg": 0.8313,
+          "approx_area_km2": 3188
+        },
+        {
+          "index": 14,
+          "minLat": 43.776564,
+          "maxLat": 44.287442,
+          "minLng": 22.659045,
+          "maxLng": 23.048469,
+          "span_lat_deg": 0.5109,
+          "span_lng_deg": 0.3894,
+          "approx_area_km2": 1762
+        },
+        {
+          "index": 15,
+          "minLat": 43.609833,
+          "maxLat": 43.868233,
+          "minLng": 23.048469,
+          "maxLng": 25.983866,
+          "span_lat_deg": 0.2584,
+          "span_lng_deg": 2.9354,
+          "approx_area_km2": 6752
+        },
+        {
+          "index": 16,
+          "minLat": 43.868908,
+          "maxLat": 44.158672,
+          "minLng": 25.983866,
+          "maxLng": 27.504667,
+          "span_lat_deg": 0.2898,
+          "span_lng_deg": 1.5208,
+          "approx_area_km2": 3905
+        },
+        {
+          "index": 17,
+          "minLat": 44.146126,
+          "maxLat": 44.245857,
+          "minLng": 27.504667,
+          "maxLng": 27.828106,
+          "span_lat_deg": 0.0997,
+          "span_lng_deg": 0.3234,
+          "approx_area_km2": 285
+        },
+        {
+          "index": 18,
+          "minLat": 44.245857,
+          "maxLat": 45.144813,
+          "minLng": 27.808504,
+          "maxLng": 28.123696,
+          "span_lat_deg": 0.899,
+          "span_lng_deg": 0.3152,
+          "approx_area_km2": 2482
+        },
+        {
+          "index": 19,
+          "minLat": 45.144813,
+          "maxLat": 45.476388,
+          "minLng": 27.930103,
+          "maxLng": 29.780501,
+          "span_lat_deg": 0.3316,
+          "span_lng_deg": 1.8504,
+          "approx_area_km2": 5316
+        }
+      ],
+      "total_area_km2": 61199,
+      "rectangle_count": 20,
+      "avg_area_per_rect_km2": 3059
+    },
+    "25": {
+      "rectangles": [
+        {
+          "index": 0,
+          "minLat": 47.903157,
+          "maxLat": 48.139073,
+          "minLng": 8.50341,
+          "maxLng": 9.465115,
+          "span_lat_deg": 0.2359,
+          "span_lng_deg": 0.9617,
+          "approx_area_km2": 1870
+        },
+        {
+          "index": 1,
+          "minLat": 48.12988,
+          "maxLat": 48.444127,
+          "minLng": 9.465115,
+          "maxLng": 10.072419,
+          "span_lat_deg": 0.3142,
+          "span_lng_deg": 0.6073,
+          "approx_area_km2": 1565
+        },
+        {
+          "index": 2,
+          "minLat": 48.430657,
+          "maxLat": 48.716702,
+          "minLng": 10.072419,
+          "maxLng": 10.775929,
+          "span_lat_deg": 0.286,
+          "span_lng_deg": 0.7035,
+          "approx_area_km2": 1641
+        },
+        {
+          "index": 3,
+          "minLat": 48.700667,
+          "maxLat": 48.830939,
+          "minLng": 10.775929,
+          "maxLng": 11.753034,
+          "span_lat_deg": 0.1303,
+          "span_lng_deg": 0.9771,
+          "approx_area_km2": 1034
+        },
+        {
+          "index": 4,
+          "minLat": 48.813715,
+          "maxLat": 49.040383,
+          "minLng": 11.753034,
+          "maxLng": 12.965027,
+          "span_lat_deg": 0.2267,
+          "span_lng_deg": 1.212,
+          "approx_area_km2": 2224
+        },
+        {
+          "index": 5,
+          "minLat": 48.585149,
+          "maxLat": 48.830682,
+          "minLng": 12.965027,
+          "maxLng": 13.386854,
+          "span_lat_deg": 0.2455,
+          "span_lng_deg": 0.4218,
+          "approx_area_km2": 842
+        },
+        {
+          "index": 6,
+          "minLat": 48.394237,
+          "maxLat": 48.601188,
+          "minLng": 13.386854,
+          "maxLng": 14.005248,
+          "span_lat_deg": 0.207,
+          "span_lng_deg": 0.6184,
+          "approx_area_km2": 1045
+        },
+        {
+          "index": 7,
+          "minLat": 48.156605,
+          "maxLat": 48.418301,
+          "minLng": 14.005248,
+          "maxLng": 16.481726,
+          "span_lat_deg": 0.2617,
+          "span_lng_deg": 2.4765,
+          "approx_area_km2": 5313
+        },
+        {
+          "index": 8,
+          "minLat": 48.086689,
+          "maxLat": 48.18234,
+          "minLng": 16.481726,
+          "maxLng": 17.153626,
+          "span_lat_deg": 0.0957,
+          "span_lng_deg": 0.6719,
+          "approx_area_km2": 528
+        },
+        {
+          "index": 9,
+          "minLat": 47.681495,
+          "maxLat": 48.08733,
+          "minLng": 17.153626,
+          "maxLng": 17.63546,
+          "span_lat_deg": 0.4058,
+          "span_lng_deg": 0.4818,
+          "approx_area_km2": 1616
+        },
+        {
+          "index": 10,
+          "minLat": 47.692405,
+          "maxLat": 47.831454,
+          "minLng": 17.63546,
+          "maxLng": 19.146106,
+          "span_lat_deg": 0.139,
+          "span_lng_deg": 1.5106,
+          "approx_area_km2": 1740
+        },
+        {
+          "index": 11,
+          "minLat": 46.629254,
+          "maxLat": 47.692405,
+          "minLng": 18.859658,
+          "maxLng": 19.137488,
+          "span_lat_deg": 1.0632,
+          "span_lng_deg": 0.2778,
+          "approx_area_km2": 2475
+        },
+        {
+          "index": 12,
+          "minLat": 45.771581,
+          "maxLat": 46.629254,
+          "minLng": 18.66971,
+          "maxLng": 18.939921,
+          "span_lat_deg": 0.8577,
+          "span_lng_deg": 0.2702,
+          "approx_area_km2": 1976
+        },
+        {
+          "index": 13,
+          "minLat": 45.277873,
+          "maxLat": 45.771581,
+          "minLng": 18.875384,
+          "maxLng": 19.130366,
+          "span_lat_deg": 0.4937,
+          "span_lng_deg": 0.255,
+          "approx_area_km2": 1087
+        },
+        {
+          "index": 14,
+          "minLat": 45.159093,
+          "maxLat": 45.290733,
+          "minLng": 19.130366,
+          "maxLng": 20.233273,
+          "span_lat_deg": 0.1316,
+          "span_lng_deg": 1.1029,
+          "approx_area_km2": 1260
+        },
+        {
+          "index": 15,
+          "minLat": 44.850674,
+          "maxLat": 45.172925,
+          "minLng": 20.233273,
+          "maxLng": 20.393237,
+          "span_lat_deg": 0.3223,
+          "span_lng_deg": 0.16,
+          "approx_area_km2": 449
+        },
+        {
+          "index": 16,
+          "minLat": 44.634611,
+          "maxLat": 44.864708,
+          "minLng": 20.393237,
+          "maxLng": 21.945039,
+          "span_lat_deg": 0.2301,
+          "span_lng_deg": 1.5518,
+          "approx_area_km2": 3124
+        },
+        {
+          "index": 17,
+          "minLat": 44.287442,
+          "maxLat": 44.723929,
+          "minLng": 21.945039,
+          "maxLng": 22.7763,
+          "span_lat_deg": 0.4365,
+          "span_lng_deg": 0.8313,
+          "approx_area_km2": 3188
+        },
+        {
+          "index": 18,
+          "minLat": 43.776564,
+          "maxLat": 44.287442,
+          "minLng": 22.659045,
+          "maxLng": 23.048469,
+          "span_lat_deg": 0.5109,
+          "span_lng_deg": 0.3894,
+          "approx_area_km2": 1762
+        },
+        {
+          "index": 19,
+          "minLat": 43.756778,
+          "maxLat": 43.863175,
+          "minLng": 23.048469,
+          "maxLng": 23.841256,
+          "span_lat_deg": 0.1064,
+          "span_lng_deg": 0.7928,
+          "approx_area_km2": 750
+        },
+        {
+          "index": 20,
+          "minLat": 43.609833,
+          "maxLat": 43.778457,
+          "minLng": 23.841256,
+          "maxLng": 25.863355,
+          "span_lat_deg": 0.1686,
+          "span_lng_deg": 2.0221,
+          "approx_area_km2": 3038
+        },
+        {
+          "index": 21,
+          "minLat": 43.761131,
+          "maxLat": 44.093472,
+          "minLng": 25.863355,
+          "maxLng": 26.784405,
+          "span_lat_deg": 0.3323,
+          "span_lng_deg": 0.9211,
+          "approx_area_km2": 2716
+        },
+        {
+          "index": 22,
+          "minLat": 44.087174,
+          "maxLat": 44.242857,
+          "minLng": 26.784405,
+          "maxLng": 27.8281,
+          "span_lat_deg": 0.1557,
+          "span_lng_deg": 1.0437,
+          "approx_area_km2": 1436
+        },
+        {
+          "index": 23,
+          "minLat": 44.242857,
+          "maxLat": 45.144813,
+          "minLng": 27.808504,
+          "maxLng": 28.123696,
+          "span_lat_deg": 0.902,
+          "span_lng_deg": 0.3152,
+          "approx_area_km2": 2490
+        },
+        {
+          "index": 24,
+          "minLat": 45.144813,
+          "maxLat": 45.476388,
+          "minLng": 27.930103,
+          "maxLng": 29.780501,
+          "span_lat_deg": 0.3316,
+          "span_lng_deg": 1.8504,
+          "approx_area_km2": 5316
+        }
+      ],
+      "total_area_km2": 50485,
+      "rectangle_count": 25,
+      "avg_area_per_rect_km2": 2019
+    },
+    "30": {
+      "rectangles": [
+        {
+          "index": 0,
+          "minLat": 47.903157,
+          "maxLat": 48.103329,
+          "minLng": 8.503415,
+          "maxLng": 9.416116,
+          "span_lat_deg": 0.2002,
+          "span_lng_deg": 0.9127,
+          "approx_area_km2": 1506
+        },
+        {
+          "index": 1,
+          "minLat": 48.081412,
+          "maxLat": 48.305629,
+          "minLng": 9.416116,
+          "maxLng": 9.857756,
+          "span_lat_deg": 0.2242,
+          "span_lng_deg": 0.4416,
+          "approx_area_km2": 813
+        },
+        {
+          "index": 2,
+          "minLat": 48.291502,
+          "maxLat": 48.495737,
+          "minLng": 9.857756,
+          "maxLng": 10.35613,
+          "span_lat_deg": 0.2042,
+          "span_lng_deg": 0.4984,
+          "approx_area_km2": 833
+        },
+        {
+          "index": 3,
+          "minLat": 48.480906,
+          "maxLat": 48.716702,
+          "minLng": 10.35613,
+          "maxLng": 10.776382,
+          "span_lat_deg": 0.2358,
+          "span_lng_deg": 0.4203,
+          "approx_area_km2": 807
+        },
+        {
+          "index": 4,
+          "minLat": 48.700667,
+          "maxLat": 48.799445,
+          "minLng": 10.776382,
+          "maxLng": 11.690459,
+          "span_lat_deg": 0.0988,
+          "span_lng_deg": 0.9141,
+          "approx_area_km2": 734
+        },
+        {
+          "index": 5,
+          "minLat": 48.785135,
+          "maxLat": 49.040383,
+          "minLng": 11.690459,
+          "maxLng": 12.994097,
+          "span_lat_deg": 0.2552,
+          "span_lng_deg": 1.3036,
+          "approx_area_km2": 2694
+        },
+        {
+          "index": 6,
+          "minLat": 48.550627,
+          "maxLat": 48.802152,
+          "minLng": 12.994097,
+          "maxLng": 13.61927,
+          "span_lat_deg": 0.2515,
+          "span_lng_deg": 0.6252,
+          "approx_area_km2": 1279
+        },
+        {
+          "index": 7,
+          "minLat": 48.29587,
+          "maxLat": 48.565382,
+          "minLng": 13.61927,
+          "maxLng": 14.335799,
+          "span_lat_deg": 0.2695,
+          "span_lng_deg": 0.7165,
+          "approx_area_km2": 1579
+        },
+        {
+          "index": 8,
+          "minLat": 48.156605,
+          "maxLat": 48.300786,
+          "minLng": 14.335799,
+          "maxLng": 15.404496,
+          "span_lat_deg": 0.1442,
+          "span_lng_deg": 1.0687,
+          "approx_area_km2": 1265
+        },
+        {
+          "index": 9,
+          "minLat": 48.281472,
+          "maxLat": 48.418301,
+          "minLng": 15.404496,
+          "maxLng": 16.359478,
+          "span_lat_deg": 0.1368,
+          "span_lng_deg": 0.955,
+          "approx_area_km2": 1070
+        },
+        {
+          "index": 10,
+          "minLat": 48.086689,
+          "maxLat": 48.282749,
+          "minLng": 16.359478,
+          "maxLng": 17.153626,
+          "span_lat_deg": 0.1961,
+          "span_lng_deg": 0.7941,
+          "approx_area_km2": 1279
+        },
+        {
+          "index": 11,
+          "minLat": 47.681495,
+          "maxLat": 48.08733,
+          "minLng": 17.153626,
+          "maxLng": 17.63846,
+          "span_lat_deg": 0.4058,
+          "span_lng_deg": 0.4848,
+          "approx_area_km2": 1626
+        },
+        {
+          "index": 12,
+          "minLat": 47.693404,
+          "maxLat": 47.831454,
+          "minLng": 17.63846,
+          "maxLng": 19.146107,
+          "span_lat_deg": 0.138,
+          "span_lng_deg": 1.5076,
+          "approx_area_km2": 1724
+        },
+        {
+          "index": 13,
+          "minLat": 47.388644,
+          "maxLat": 47.693404,
+          "minLng": 18.996313,
+          "maxLng": 19.138959,
+          "span_lat_deg": 0.3048,
+          "span_lng_deg": 0.1426,
+          "approx_area_km2": 362
+        },
+        {
+          "index": 14,
+          "minLat": 46.174319,
+          "maxLat": 47.388644,
+          "minLng": 18.846279,
+          "maxLng": 19.022103,
+          "span_lat_deg": 1.2143,
+          "span_lng_deg": 0.1758,
+          "approx_area_km2": 1801
+        },
+        {
+          "index": 15,
+          "minLat": 45.704217,
+          "maxLat": 46.174319,
+          "minLng": 18.669772,
+          "maxLng": 18.925537,
+          "span_lat_deg": 0.4701,
+          "span_lng_deg": 0.2558,
+          "approx_area_km2": 1030
+        },
+        {
+          "index": 16,
+          "minLat": 45.277873,
+          "maxLat": 45.704217,
+          "minLng": 18.875392,
+          "maxLng": 19.130366,
+          "span_lat_deg": 0.4263,
+          "span_lng_deg": 0.255,
+          "approx_area_km2": 939
+        },
+        {
+          "index": 17,
+          "minLat": 45.159093,
+          "maxLat": 45.290733,
+          "minLng": 19.130366,
+          "maxLng": 20.233273,
+          "span_lat_deg": 0.1316,
+          "span_lng_deg": 1.1029,
+          "approx_area_km2": 1260
+        },
+        {
+          "index": 18,
+          "minLat": 44.850674,
+          "maxLat": 45.172925,
+          "minLng": 20.233273,
+          "maxLng": 20.392835,
+          "span_lat_deg": 0.3223,
+          "span_lng_deg": 0.1596,
+          "approx_area_km2": 448
+        },
+        {
+          "index": 19,
+          "minLat": 44.648083,
+          "maxLat": 44.864708,
+          "minLng": 20.392835,
+          "maxLng": 21.711991,
+          "span_lat_deg": 0.2166,
+          "span_lng_deg": 1.3192,
+          "approx_area_km2": 2500
+        },
+        {
+          "index": 20,
+          "minLat": 44.464406,
+          "maxLat": 44.690868,
+          "minLng": 21.711991,
+          "maxLng": 22.400574,
+          "span_lat_deg": 0.2265,
+          "span_lng_deg": 0.6886,
+          "approx_area_km2": 1369
+        },
+        {
+          "index": 21,
+          "minLat": 44.185131,
+          "maxLat": 44.723929,
+          "minLng": 22.400574,
+          "maxLng": 22.776893,
+          "span_lat_deg": 0.5388,
+          "span_lng_deg": 0.3763,
+          "approx_area_km2": 1783
+        },
+        {
+          "index": 22,
+          "minLat": 43.776564,
+          "maxLat": 44.185131,
+          "minLng": 22.757835,
+          "maxLng": 23.048469,
+          "span_lat_deg": 0.4086,
+          "span_lng_deg": 0.2906,
+          "approx_area_km2": 1053
+        },
+        {
+          "index": 23,
+          "minLat": 43.756778,
+          "maxLat": 43.863175,
+          "minLng": 23.048469,
+          "maxLng": 23.841256,
+          "span_lat_deg": 0.1064,
+          "span_lng_deg": 0.7928,
+          "approx_area_km2": 750
+        },
+        {
+          "index": 24,
+          "minLat": 43.609833,
+          "maxLat": 43.770504,
+          "minLng": 23.841256,
+          "maxLng": 25.832355,
+          "span_lat_deg": 0.1607,
+          "span_lng_deg": 1.9911,
+          "approx_area_km2": 2850
+        },
+        {
+          "index": 25,
+          "minLat": 43.742984,
+          "maxLat": 44.03558,
+          "minLng": 25.832355,
+          "maxLng": 26.310156,
+          "span_lat_deg": 0.2926,
+          "span_lng_deg": 0.4778,
+          "approx_area_km2": 1241
+        },
+        {
+          "index": 26,
+          "minLat": 44.02065,
+          "maxLat": 44.164144,
+          "minLng": 26.310156,
+          "maxLng": 27.517212,
+          "span_lat_deg": 0.1435,
+          "span_lng_deg": 1.2071,
+          "approx_area_km2": 1533
+        },
+        {
+          "index": 27,
+          "minLat": 44.155012,
+          "maxLat": 44.244857,
+          "minLng": 27.517212,
+          "maxLng": 27.828107,
+          "span_lat_deg": 0.0898,
+          "span_lng_deg": 0.3109,
+          "approx_area_km2": 247
+        },
+        {
+          "index": 28,
+          "minLat": 44.244857,
+          "maxLat": 45.144813,
+          "minLng": 27.808504,
+          "maxLng": 28.123696,
+          "span_lat_deg": 0.9,
+          "span_lng_deg": 0.3152,
+          "approx_area_km2": 2484
+        },
+        {
+          "index": 29,
+          "minLat": 45.144813,
+          "maxLat": 45.476388,
+          "minLng": 27.930103,
+          "maxLng": 29.780501,
+          "span_lat_deg": 0.3316,
+          "span_lng_deg": 1.8504,
+          "approx_area_km2": 5316
+        }
+      ],
+      "total_area_km2": 44175,
+      "rectangle_count": 30,
+      "avg_area_per_rect_km2": 1472
+    }
+  },
+  "rectangles": [
+    {
+      "minLat": 47.903157,
+      "maxLat": 48.159525,
+      "minLng": 8.503406,
+      "maxLng": 9.500798,
+      "span_lat_deg": 0.2564,
+      "span_lng_deg": 0.9974,
+      "approx_area_km2": 2107,
+      "index": 0
+    },
+    {
+      "minLat": 48.159525,
+      "maxLat": 48.557569,
+      "minLng": 9.475217,
+      "maxLng": 10.398911,
+      "span_lat_deg": 0.398,
+      "span_lng_deg": 0.9237,
+      "approx_area_km2": 3010,
+      "index": 1
+    },
+    {
+      "minLat": 48.543342,
+      "maxLat": 48.773317,
+      "minLng": 10.398911,
+      "maxLng": 11.568459,
+      "span_lat_deg": 0.23,
+      "span_lng_deg": 1.1695,
+      "approx_area_km2": 2189,
+      "index": 2
+    },
+    {
+      "minLat": 48.759082,
+      "maxLat": 49.040383,
+      "minLng": 11.568459,
+      "maxLng": 13.013097,
+      "span_lat_deg": 0.2813,
+      "span_lng_deg": 1.4446,
+      "approx_area_km2": 3291,
+      "index": 3
+    },
+    {
+      "minLat": 48.394237,
+      "maxLat": 48.777221,
+      "minLng": 13.013097,
+      "maxLng": 14.002248,
+      "span_lat_deg": 0.383,
+      "span_lng_deg": 0.9892,
+      "approx_area_km2": 3088,
+      "index": 4
+    },
+    {
+      "minLat": 48.155412,
+      "maxLat": 48.418301,
+      "minLng": 14.002248,
+      "maxLng": 15.258987,
+      "span_lat_deg": 0.2629,
+      "span_lng_deg": 1.2567,
+      "approx_area_km2": 2709,
+      "index": 5
+    },
+    {
+      "minLat": 48.155412,
+      "maxLat": 48.418301,
+      "minLng": 15.258987,
+      "maxLng": 16.515726,
+      "span_lat_deg": 0.2629,
+      "span_lng_deg": 1.2567,
+      "approx_area_km2": 2709,
+      "index": 6
+    },
+    {
+      "minLat": 47.681495,
+      "maxLat": 48.18234,
+      "minLng": 16.515726,
+      "maxLng": 17.635364,
+      "span_lat_deg": 0.5008,
+      "span_lng_deg": 1.1196,
+      "approx_area_km2": 4629,
+      "index": 7
+    },
+    {
+      "minLat": 47.692405,
+      "maxLat": 47.831454,
+      "minLng": 17.635364,
+      "maxLng": 19.146106,
+      "span_lat_deg": 0.139,
+      "span_lng_deg": 1.5107,
+      "approx_area_km2": 1740,
+      "index": 8
+    },
+    {
+      "minLat": 46.932862,
+      "maxLat": 47.692405,
+      "minLng": 18.846242,
+      "maxLng": 19.137431,
+      "span_lat_deg": 0.7595,
+      "span_lng_deg": 0.2912,
+      "approx_area_km2": 1848,
+      "index": 9
+    },
+    {
+      "minLat": 46.173319,
+      "maxLat": 46.932862,
+      "minLng": 18.846242,
+      "maxLng": 19.137431,
+      "span_lat_deg": 0.7595,
+      "span_lng_deg": 0.2912,
+      "approx_area_km2": 1874,
+      "index": 10
+    },
+    {
+      "minLat": 45.289782,
+      "maxLat": 46.173319,
+      "minLng": 18.669819,
+      "maxLng": 19.105669,
+      "span_lat_deg": 0.8835,
+      "span_lng_deg": 0.4358,
+      "approx_area_km2": 3312,
+      "index": 11
+    },
+    {
+      "minLat": 45.159093,
+      "maxLat": 45.305402,
+      "minLng": 19.105669,
+      "maxLng": 20.233273,
+      "span_lat_deg": 0.1463,
+      "span_lng_deg": 1.1276,
+      "approx_area_km2": 1431,
+      "index": 12
+    },
+    {
+      "minLat": 44.850674,
+      "maxLat": 45.172925,
+      "minLng": 20.233273,
+      "maxLng": 20.393237,
+      "span_lat_deg": 0.3223,
+      "span_lng_deg": 0.16,
+      "approx_area_km2": 449,
+      "index": 13
+    },
+    {
+      "minLat": 44.634611,
+      "maxLat": 44.864708,
+      "minLng": 20.393237,
+      "maxLng": 21.945039,
+      "span_lat_deg": 0.2301,
+      "span_lng_deg": 1.5518,
+      "approx_area_km2": 3124,
+      "index": 14
+    },
+    {
+      "minLat": 44.287442,
+      "maxLat": 44.723929,
+      "minLng": 21.945039,
+      "maxLng": 22.7763,
+      "span_lat_deg": 0.4365,
+      "span_lng_deg": 0.8313,
+      "approx_area_km2": 3188,
+      "index": 15
+    },
+    {
+      "minLat": 43.776564,
+      "maxLat": 44.287442,
+      "minLng": 22.659045,
+      "maxLng": 23.048469,
+      "span_lat_deg": 0.5109,
+      "span_lng_deg": 0.3894,
+      "approx_area_km2": 1762,
+      "index": 16
+    },
+    {
+      "minLat": 43.609833,
+      "maxLat": 43.868233,
+      "minLng": 23.048469,
+      "maxLng": 24.026935,
+      "span_lat_deg": 0.2584,
+      "span_lng_deg": 0.9785,
+      "approx_area_km2": 2251,
+      "index": 17
+    },
+    {
+      "minLat": 43.609833,
+      "maxLat": 43.868233,
+      "minLng": 24.026935,
+      "maxLng": 25.0054,
+      "span_lat_deg": 0.2584,
+      "span_lng_deg": 0.9785,
+      "approx_area_km2": 2251,
+      "index": 18
+    },
+    {
+      "minLat": 43.609833,
+      "maxLat": 43.868233,
+      "minLng": 25.0054,
+      "maxLng": 25.983866,
+      "span_lat_deg": 0.2584,
+      "span_lng_deg": 0.9785,
+      "approx_area_km2": 2251,
+      "index": 19
+    },
+    {
+      "minLat": 43.868908,
+      "maxLat": 44.158672,
+      "minLng": 25.983866,
+      "maxLng": 27.504667,
+      "span_lat_deg": 0.2898,
+      "span_lng_deg": 1.5208,
+      "approx_area_km2": 3905,
+      "index": 20
+    },
+    {
+      "minLat": 44.146126,
+      "maxLat": 44.245857,
+      "minLng": 27.504667,
+      "maxLng": 27.828106,
+      "span_lat_deg": 0.0997,
+      "span_lng_deg": 0.3234,
+      "approx_area_km2": 285,
+      "index": 21
+    },
+    {
+      "minLat": 44.245857,
+      "maxLat": 45.144813,
+      "minLng": 27.808504,
+      "maxLng": 28.123696,
+      "span_lat_deg": 0.899,
+      "span_lng_deg": 0.3152,
+      "approx_area_km2": 2482,
+      "index": 22
+    },
+    {
+      "minLat": 45.144813,
+      "maxLat": 45.476388,
+      "minLng": 27.930103,
+      "maxLng": 29.780501,
+      "span_lat_deg": 0.3316,
+      "span_lng_deg": 1.8504,
+      "approx_area_km2": 5316,
+      "index": 23
+    }
+  ],
+  "rectangle_count": 24,
+  "total_area_km2": 61201,
+  "guarantees": [
+    "100% of Danube vertices covered.",
+    "All 18 navigation locks covered.",
+    "No two rectangles overlap (zero area intersection).",
+    "Every consecutive pair shares exactly one edge.",
+    "1 km safety margin on every outer edge."
+  ],
+  "manual_splits": [
+    "rect 5 split into halves left/right at lng=15.258987",
+    "rect 8 split into halves up/down at lat=46.932862",
+    "rect 15 split into thirds at lng=24.026935 and lng=25.0054"
+  ],
+  "note": "Top-level rectangles list (24 tiles) reflects manual splits applied to the K=20 baseline. Original K=15/20/25/30 cover sets are preserved under 'options'."
+}

@@ -1,0 +1,9705 @@
+{
+  "description": "Danube kilometrierung (river-km from Sulina mouth=0 to Donaueschingen source=2811). Used for slider mapping.",
+  "sources": {
+    "osm:seamark": "OpenStreetMap nodes with seamark:type=distance_mark (filtered by proximity to Danube polyline + monotonicity check). © OpenStreetMap contributors, ODbL.",
+    "lock": "Lock river_km from data/danube_locks.json",
+    "endpoint": "Manual anchor at the geojson polyline source/mouth endpoints to ensure slider extremes hit the rendered blue line."
+  },
+  "count": 1612,
+  "rkm_min": 0.0,
+  "rkm_max": 2811.0,
+  "markers": [
+    {
+      "rkm": 2811.0,
+      "lat": 47.950348,
+      "lon": 8.51739,
+      "name": "Donaueschingen (source)",
+      "source": "endpoint"
+    },
+    {
+      "rkm": 2779.61,
+      "lat": 47.951247,
+      "lon": 8.520598,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2516.6,
+      "lat": 48.680934,
+      "lon": 10.714953,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2516.4,
+      "lat": 48.681514,
+      "lon": 10.717471,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2516.2,
+      "lat": 48.682261,
+      "lon": 10.719891,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2516.0,
+      "lat": 48.683029,
+      "lon": 10.722261,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2515.8,
+      "lat": 48.683813,
+      "lon": 10.724614,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2515.6,
+      "lat": 48.684757,
+      "lon": 10.726907,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2515.4,
+      "lat": 48.685713,
+      "lon": 10.7293,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2515.2,
+      "lat": 48.686772,
+      "lon": 10.73153,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2515.0,
+      "lat": 48.687842,
+      "lon": 10.733992,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2514.8,
+      "lat": 48.688661,
+      "lon": 10.7364,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2514.6,
+      "lat": 48.68948,
+      "lon": 10.738824,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2514.4,
+      "lat": 48.690259,
+      "lon": 10.74154,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2514.2,
+      "lat": 48.690781,
+      "lon": 10.744202,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2514.0,
+      "lat": 48.690886,
+      "lon": 10.74722,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2513.8,
+      "lat": 48.690846,
+      "lon": 10.74989,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2513.6,
+      "lat": 48.691206,
+      "lon": 10.751674,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2513.4,
+      "lat": 48.691991,
+      "lon": 10.753133,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2513.2,
+      "lat": 48.693578,
+      "lon": 10.754177,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2513.0,
+      "lat": 48.695445,
+      "lon": 10.755566,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2512.8,
+      "lat": 48.696762,
+      "lon": 10.758153,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2512.6,
+      "lat": 48.697378,
+      "lon": 10.760834,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2512.4,
+      "lat": 48.69818,
+      "lon": 10.763285,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2512.2,
+      "lat": 48.698977,
+      "lon": 10.765227,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2512.0,
+      "lat": 48.699883,
+      "lon": 10.76767,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2511.6,
+      "lat": 48.701767,
+      "lon": 10.772113,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2511.4,
+      "lat": 48.703284,
+      "lon": 10.773416,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2511.2,
+      "lat": 48.705066,
+      "lon": 10.774237,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2511.0,
+      "lat": 48.706837,
+      "lon": 10.774776,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2510.8,
+      "lat": 48.708559,
+      "lon": 10.77536,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2510.6,
+      "lat": 48.710299,
+      "lon": 10.775904,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2510.4,
+      "lat": 48.71205,
+      "lon": 10.776727,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2510.0,
+      "lat": 48.71458,
+      "lon": 10.780461,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2414.0,
+      "lat": 48.912083,
+      "lon": 11.875708,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2413.0,
+      "lat": 48.908243,
+      "lon": 11.887798,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2412.0,
+      "lat": 48.908112,
+      "lon": 11.901352,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2411.0,
+      "lat": 48.910823,
+      "lon": 11.914249,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2409.0,
+      "lat": 48.908465,
+      "lon": 11.940311,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2408.0,
+      "lat": 48.904478,
+      "lon": 11.952433,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2407.0,
+      "lat": 48.906749,
+      "lon": 11.9651,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2406.0,
+      "lat": 48.914541,
+      "lon": 11.969941,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2405.0,
+      "lat": 48.922675,
+      "lon": 11.974047,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2404.0,
+      "lat": 48.928431,
+      "lon": 11.985088,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2403.0,
+      "lat": 48.931383,
+      "lon": 11.997798,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2401.0,
+      "lat": 48.930464,
+      "lon": 12.022479,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2399.0,
+      "lat": 48.945059,
+      "lon": 12.016599,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2397.17,
+      "lat": 48.94669,
+      "lon": 12.012719,
+      "name": "Schleuse Bad Abbach",
+      "source": "lock"
+    },
+    {
+      "rkm": 2396.0,
+      "lat": 48.94979,
+      "lon": 11.997827,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2395.0,
+      "lat": 48.953975,
+      "lon": 11.987345,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2394.0,
+      "lat": 48.96189,
+      "lon": 11.992878,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2393.0,
+      "lat": 48.966243,
+      "lon": 12.004775,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2392.0,
+      "lat": 48.968593,
+      "lon": 12.017919,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2391.0,
+      "lat": 48.972474,
+      "lon": 12.03011,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2390.0,
+      "lat": 48.979301,
+      "lon": 12.03877,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2388.0,
+      "lat": 48.995791,
+      "lon": 12.043173,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2387.0,
+      "lat": 49.002719,
+      "lon": 12.034583,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2386.0,
+      "lat": 49.010711,
+      "lon": 12.02739,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2385.0,
+      "lat": 49.018467,
+      "lon": 12.035192,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2384.0,
+      "lat": 49.025519,
+      "lon": 12.043469,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2379.68,
+      "lat": 49.026469,
+      "lon": 12.097044,
+      "name": "Schleuse Regensburg",
+      "source": "lock"
+    },
+    {
+      "rkm": 2379.0,
+      "lat": 49.024504,
+      "lon": 12.106164,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2378.0,
+      "lat": 49.021224,
+      "lon": 12.118327,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2377.0,
+      "lat": 49.022632,
+      "lon": 12.131772,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2376.0,
+      "lat": 49.022117,
+      "lon": 12.145257,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2375.0,
+      "lat": 49.017445,
+      "lon": 12.156905,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2374.0,
+      "lat": 49.014839,
+      "lon": 12.169809,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2373.0,
+      "lat": 49.008671,
+      "lon": 12.1796,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2372.0,
+      "lat": 49.008814,
+      "lon": 12.192282,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2371.0,
+      "lat": 49.016706,
+      "lon": 12.198519,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2370.0,
+      "lat": 49.023455,
+      "lon": 12.207249,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2369.0,
+      "lat": 49.027961,
+      "lon": 12.218831,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2368.0,
+      "lat": 49.025501,
+      "lon": 12.231856,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2367.0,
+      "lat": 49.023319,
+      "lon": 12.245102,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2366.0,
+      "lat": 49.019791,
+      "lon": 12.257617,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2365.0,
+      "lat": 49.011981,
+      "lon": 12.264255,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2364.0,
+      "lat": 49.011066,
+      "lon": 12.276565,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2363.0,
+      "lat": 49.014122,
+      "lon": 12.289145,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2362.0,
+      "lat": 49.015068,
+      "lon": 12.302634,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2361.0,
+      "lat": 49.014547,
+      "lon": 12.316554,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2360.0,
+      "lat": 49.009342,
+      "lon": 12.327864,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2359.0,
+      "lat": 49.002791,
+      "lon": 12.33715,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2358.0,
+      "lat": 48.995823,
+      "lon": 12.344591,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2357.0,
+      "lat": 48.988277,
+      "lon": 12.338456,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2356.0,
+      "lat": 48.983421,
+      "lon": 12.327222,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2354.29,
+      "lat": 48.977152,
+      "lon": 12.343899,
+      "name": "Schleuse Geisling",
+      "source": "lock"
+    },
+    {
+      "rkm": 2353.0,
+      "lat": 48.974804,
+      "lon": 12.36115,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2352.0,
+      "lat": 48.97122,
+      "lon": 12.37298,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2351.0,
+      "lat": 48.978099,
+      "lon": 12.380872,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2350.0,
+      "lat": 48.98091,
+      "lon": 12.393353,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2349.0,
+      "lat": 48.982124,
+      "lon": 12.40678,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2348.0,
+      "lat": 48.977302,
+      "lon": 12.418038,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2347.0,
+      "lat": 48.973682,
+      "lon": 12.430548,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2346.0,
+      "lat": 48.968808,
+      "lon": 12.442,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2345.0,
+      "lat": 48.96699,
+      "lon": 12.455224,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2344.0,
+      "lat": 48.964557,
+      "lon": 12.466921,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2343.0,
+      "lat": 48.955873,
+      "lon": 12.46797,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2342.0,
+      "lat": 48.952571,
+      "lon": 12.477718,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2341.0,
+      "lat": 48.959805,
+      "lon": 12.485212,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2340.0,
+      "lat": 48.956911,
+      "lon": 12.496655,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2339.0,
+      "lat": 48.94872,
+      "lon": 12.50127,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2338.0,
+      "lat": 48.946745,
+      "lon": 12.514169,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2337.0,
+      "lat": 48.941668,
+      "lon": 12.522876,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2336.0,
+      "lat": 48.935722,
+      "lon": 12.513359,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2335.0,
+      "lat": 48.92758,
+      "lon": 12.509208,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2334.0,
+      "lat": 48.919163,
+      "lon": 12.513988,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2333.0,
+      "lat": 48.910979,
+      "lon": 12.519637,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2332.0,
+      "lat": 48.904404,
+      "lon": 12.528858,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2331.0,
+      "lat": 48.900122,
+      "lon": 12.540343,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2324.13,
+      "lat": 48.8992,
+      "lon": 12.559017,
+      "name": "Schleuse Straubing",
+      "source": "lock"
+    },
+    {
+      "rkm": 2321.0,
+      "lat": 48.899572,
+      "lon": 12.567675,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2321.0,
+      "lat": 48.900678,
+      "lon": 12.592319,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2318.0,
+      "lat": 48.901378,
+      "lon": 12.604035,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2309.0,
+      "lat": 48.893312,
+      "lon": 12.705568,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2306.0,
+      "lat": 48.88203,
+      "lon": 12.741535,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2302.0,
+      "lat": 48.850673,
+      "lon": 12.765093,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2302.0,
+      "lat": 48.850615,
+      "lon": 12.76647,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2298.0,
+      "lat": 48.825342,
+      "lon": 12.797638,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2296.0,
+      "lat": 48.825783,
+      "lon": 12.824779,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2296.0,
+      "lat": 48.827413,
+      "lon": 12.823623,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2295.0,
+      "lat": 48.831633,
+      "lon": 12.834906,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2295.0,
+      "lat": 48.830302,
+      "lon": 12.836587,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2293.0,
+      "lat": 48.843171,
+      "lon": 12.85544,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2289.0,
+      "lat": 48.846033,
+      "lon": 12.908618,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2289.0,
+      "lat": 48.845141,
+      "lon": 12.908338,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2288.0,
+      "lat": 48.840038,
+      "lon": 12.919521,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2288.0,
+      "lat": 48.841258,
+      "lon": 12.92091,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2287.0,
+      "lat": 48.836289,
+      "lon": 12.931718,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2286.0,
+      "lat": 48.830793,
+      "lon": 12.942753,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2285.0,
+      "lat": 48.827581,
+      "lon": 12.955472,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2285.0,
+      "lat": 48.826693,
+      "lon": 12.954778,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2284.0,
+      "lat": 48.822052,
+      "lon": 12.966706,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2283.0,
+      "lat": 48.812974,
+      "lon": 12.969497,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2282.0,
+      "lat": 48.805495,
+      "lon": 12.974869,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2280.0,
+      "lat": 48.793143,
+      "lon": 12.994858,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2277.0,
+      "lat": 48.769841,
+      "lon": 13.011915,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2273.0,
+      "lat": 48.739868,
+      "lon": 13.037222,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2270.0,
+      "lat": 48.7198,
+      "lon": 13.015836,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2267.0,
+      "lat": 48.727198,
+      "lon": 13.048788,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2266.0,
+      "lat": 48.723022,
+      "lon": 13.06058,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2264.0,
+      "lat": 48.718555,
+      "lon": 13.081896,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2264.0,
+      "lat": 48.717377,
+      "lon": 13.081609,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2263.0,
+      "lat": 48.711264,
+      "lon": 13.091508,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2261.0,
+      "lat": 48.694945,
+      "lon": 13.092607,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2260.0,
+      "lat": 48.687707,
+      "lon": 13.085108,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2259.0,
+      "lat": 48.683743,
+      "lon": 13.095705,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2258.0,
+      "lat": 48.685845,
+      "lon": 13.107993,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2257.0,
+      "lat": 48.677934,
+      "lon": 13.114606,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2256.0,
+      "lat": 48.668748,
+      "lon": 13.11396,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2255.0,
+      "lat": 48.662091,
+      "lon": 13.121704,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2254.0,
+      "lat": 48.661947,
+      "lon": 13.13542,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2253.0,
+      "lat": 48.660213,
+      "lon": 13.148309,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2252.0,
+      "lat": 48.654064,
+      "lon": 13.158191,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2251.0,
+      "lat": 48.64803,
+      "lon": 13.168313,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2250.0,
+      "lat": 48.641525,
+      "lon": 13.177562,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2249.0,
+      "lat": 48.635716,
+      "lon": 13.188615,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2248.0,
+      "lat": 48.631402,
+      "lon": 13.200531,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2246.0,
+      "lat": 48.620155,
+      "lon": 13.220671,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2245.0,
+      "lat": 48.614817,
+      "lon": 13.231601,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2244.0,
+      "lat": 48.610646,
+      "lon": 13.243651,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2243.0,
+      "lat": 48.607934,
+      "lon": 13.25653,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2241.0,
+      "lat": 48.611305,
+      "lon": 13.28222,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2240.0,
+      "lat": 48.609346,
+      "lon": 13.295557,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2239.0,
+      "lat": 48.606273,
+      "lon": 13.308207,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2238.0,
+      "lat": 48.604239,
+      "lon": 13.315995,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2234.0,
+      "lat": 48.597861,
+      "lon": 13.374054,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2233.0,
+      "lat": 48.594158,
+      "lon": 13.386357,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2232.0,
+      "lat": 48.587417,
+      "lon": 13.39564,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2231.0,
+      "lat": 48.581188,
+      "lon": 13.406814,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2230.6,
+      "lat": 48.579503,
+      "lon": 13.409861,
+      "name": "Schleuse Kachlet",
+      "source": "lock"
+    },
+    {
+      "rkm": 2230.0,
+      "lat": 48.576104,
+      "lon": 13.41594,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2229.0,
+      "lat": 48.575719,
+      "lon": 13.428576,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2228.0,
+      "lat": 48.574723,
+      "lon": 13.441707,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2227.0,
+      "lat": 48.57644,
+      "lon": 13.454971,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2226.0,
+      "lat": 48.576135,
+      "lon": 13.468237,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2225.0,
+      "lat": 48.574782,
+      "lon": 13.481459,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2224.0,
+      "lat": 48.575424,
+      "lon": 13.494685,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2223.0,
+      "lat": 48.582774,
+      "lon": 13.501997,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2222.0,
+      "lat": 48.590252,
+      "lon": 13.509169,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2221.0,
+      "lat": 48.588967,
+      "lon": 13.522103,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2220.0,
+      "lat": 48.583416,
+      "lon": 13.53274,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2219.0,
+      "lat": 48.57726,
+      "lon": 13.541862,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2218.0,
+      "lat": 48.570347,
+      "lon": 13.55064,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2217.0,
+      "lat": 48.564812,
+      "lon": 13.562123,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2216.0,
+      "lat": 48.559977,
+      "lon": 13.573437,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2215.0,
+      "lat": 48.562894,
+      "lon": 13.584533,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2214.0,
+      "lat": 48.568812,
+      "lon": 13.593756,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2213.0,
+      "lat": 48.566282,
+      "lon": 13.60563,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2212.0,
+      "lat": 48.559824,
+      "lon": 13.615662,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2211.0,
+      "lat": 48.554516,
+      "lon": 13.627104,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2210.0,
+      "lat": 48.552713,
+      "lon": 13.63927,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2209.0,
+      "lat": 48.549934,
+      "lon": 13.651983,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2208.0,
+      "lat": 48.542145,
+      "lon": 13.657808,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2207.0,
+      "lat": 48.534528,
+      "lon": 13.664737,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2206.0,
+      "lat": 48.530506,
+      "lon": 13.676671,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2205.0,
+      "lat": 48.526811,
+      "lon": 13.688471,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2204.0,
+      "lat": 48.521507,
+      "lon": 13.699984,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2203.2,
+      "lat": 48.518702,
+      "lon": 13.709567,
+      "name": "Schleuse Jochenstein",
+      "source": "lock"
+    },
+    {
+      "rkm": 2203.0,
+      "lat": 48.51775,
+      "lon": 13.711858,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2202.0,
+      "lat": 48.514311,
+      "lon": 13.722755,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2201.0,
+      "lat": 48.511132,
+      "lon": 13.730424,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2162.67,
+      "lat": 48.385709,
+      "lon": 14.020501,
+      "name": "Schleuse Aschach",
+      "source": "lock"
+    },
+    {
+      "rkm": 2146.8,
+      "lat": 48.318399,
+      "lon": 14.147648,
+      "name": "Schleuse Ottensheim-Wilhering",
+      "source": "lock"
+    },
+    {
+      "rkm": 2119.6,
+      "lat": 48.250718,
+      "lon": 14.431088,
+      "name": "Schleuse Abwinden-Asten",
+      "source": "lock"
+    },
+    {
+      "rkm": 2095.1,
+      "lat": 48.168994,
+      "lon": 14.692098,
+      "name": "Schleuse Wallsee-Mitterkirchen",
+      "source": "lock"
+    },
+    {
+      "rkm": 2060.42,
+      "lat": 48.190638,
+      "lon": 15.073055,
+      "name": "Schleuse Ybbs-Persenbeug",
+      "source": "lock"
+    },
+    {
+      "rkm": 2038.1,
+      "lat": 48.226017,
+      "lon": 15.301765,
+      "name": "Schleuse Melk",
+      "source": "lock"
+    },
+    {
+      "rkm": 2001.0,
+      "lat": 48.402711,
+      "lon": 15.610628,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 2000.0,
+      "lat": 48.403338,
+      "lon": 15.619469,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1999.0,
+      "lat": 48.403167,
+      "lon": 15.630712,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1998.0,
+      "lat": 48.399007,
+      "lon": 15.645475,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1996.0,
+      "lat": 48.383903,
+      "lon": 15.662384,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1995.0,
+      "lat": 48.380597,
+      "lon": 15.676718,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1994.0,
+      "lat": 48.384188,
+      "lon": 15.687962,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1993.0,
+      "lat": 48.388235,
+      "lon": 15.701523,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1992.0,
+      "lat": 48.387836,
+      "lon": 15.71311,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1991.0,
+      "lat": 48.383333,
+      "lon": 15.72401,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1990.0,
+      "lat": 48.376663,
+      "lon": 15.735254,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1989.0,
+      "lat": 48.371703,
+      "lon": 15.745382,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1988.0,
+      "lat": 48.3729,
+      "lon": 15.760317,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1987.0,
+      "lat": 48.375523,
+      "lon": 15.774736,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1986.0,
+      "lat": 48.379628,
+      "lon": 15.78598,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1985.0,
+      "lat": 48.381338,
+      "lon": 15.800829,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1982.0,
+      "lat": 48.380711,
+      "lon": 15.831556,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1981.0,
+      "lat": 48.379343,
+      "lon": 15.846148,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1980.1,
+      "lat": 48.3758,
+      "lon": 15.8514,
+      "name": "Schleuse Altenwörth",
+      "source": "lock"
+    },
+    {
+      "rkm": 1980.0,
+      "lat": 48.374896,
+      "lon": 15.85825,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1979.0,
+      "lat": 48.371475,
+      "lon": 15.871467,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1978.0,
+      "lat": 48.366457,
+      "lon": 15.87739,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1977.0,
+      "lat": 48.359956,
+      "lon": 15.883999,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1976.0,
+      "lat": 48.353625,
+      "lon": 15.894127,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1975.0,
+      "lat": 48.349918,
+      "lon": 15.907001,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1974.0,
+      "lat": 48.347465,
+      "lon": 15.920906,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1973.0,
+      "lat": 48.343643,
+      "lon": 15.932665,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1972.0,
+      "lat": 48.340106,
+      "lon": 15.942965,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1971.0,
+      "lat": 48.339592,
+      "lon": 15.955839,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1970.0,
+      "lat": 48.340163,
+      "lon": 15.967598,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1968.0,
+      "lat": 48.342274,
+      "lon": 15.995579,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1967.0,
+      "lat": 48.340962,
+      "lon": 16.007681,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1966.0,
+      "lat": 48.336226,
+      "lon": 16.018496,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1965.0,
+      "lat": 48.334971,
+      "lon": 16.032314,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1963.0,
+      "lat": 48.33537,
+      "lon": 16.060295,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1962.0,
+      "lat": 48.335599,
+      "lon": 16.073942,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1960.0,
+      "lat": 48.333887,
+      "lon": 16.10321,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1957.0,
+      "lat": 48.338679,
+      "lon": 16.157627,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1956.0,
+      "lat": 48.339935,
+      "lon": 16.167154,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1953.0,
+      "lat": 48.346724,
+      "lon": 16.199427,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1952.0,
+      "lat": 48.348948,
+      "lon": 16.212215,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1951.0,
+      "lat": 48.350774,
+      "lon": 16.224318,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1950.0,
+      "lat": 48.35123,
+      "lon": 16.232815,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1949.2,
+      "lat": 48.352101,
+      "lon": 16.240989,
+      "name": "Schleuse Greifenstein",
+      "source": "lock"
+    },
+    {
+      "rkm": 1949.0,
+      "lat": 48.352371,
+      "lon": 16.245689,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1948.0,
+      "lat": 48.352998,
+      "lon": 16.259508,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1947.0,
+      "lat": 48.352884,
+      "lon": 16.273155,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1946.0,
+      "lat": 48.351914,
+      "lon": 16.283541,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1945.0,
+      "lat": 48.347351,
+      "lon": 16.295214,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1944.0,
+      "lat": 48.342673,
+      "lon": 16.306629,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1943.0,
+      "lat": 48.337881,
+      "lon": 16.317444,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1942.0,
+      "lat": 48.332803,
+      "lon": 16.327743,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1941.0,
+      "lat": 48.323786,
+      "lon": 16.334181,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1940.0,
+      "lat": 48.314312,
+      "lon": 16.340532,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1939.0,
+      "lat": 48.305877,
+      "lon": 16.343011,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1938.0,
+      "lat": 48.296899,
+      "lon": 16.344641,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1937.0,
+      "lat": 48.288604,
+      "lon": 16.349697,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1935.0,
+      "lat": 48.272624,
+      "lon": 16.362301,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1934.0,
+      "lat": 48.265712,
+      "lon": 16.36817,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1933.0,
+      "lat": 48.260342,
+      "lon": 16.372204,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1932.0,
+      "lat": 48.252112,
+      "lon": 16.379328,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1931.0,
+      "lat": 48.242624,
+      "lon": 16.389027,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1930.0,
+      "lat": 48.234507,
+      "lon": 16.398125,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1929.0,
+      "lat": 48.227646,
+      "lon": 16.406965,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1928.0,
+      "lat": 48.220212,
+      "lon": 16.416407,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1926.0,
+      "lat": 48.20763,
+      "lon": 16.434259,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1925.0,
+      "lat": 48.200823,
+      "lon": 16.443872,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1924.0,
+      "lat": 48.195216,
+      "lon": 16.452284,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1923.0,
+      "lat": 48.189093,
+      "lon": 16.461897,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1922.0,
+      "lat": 48.182455,
+      "lon": 16.471338,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1921.05,
+      "lat": 48.176408,
+      "lon": 16.478075,
+      "name": "Schleuse Freudenau",
+      "source": "lock"
+    },
+    {
+      "rkm": 1921.0,
+      "lat": 48.176332,
+      "lon": 16.482582,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1919.0,
+      "lat": 48.163109,
+      "lon": 16.503525,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1918.0,
+      "lat": 48.158357,
+      "lon": 16.51494,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1917.0,
+      "lat": 48.153833,
+      "lon": 16.526442,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1916.0,
+      "lat": 48.148393,
+      "lon": 16.534595,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1915.0,
+      "lat": 48.142838,
+      "lon": 16.543951,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1914.0,
+      "lat": 48.139745,
+      "lon": 16.557598,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1913.0,
+      "lat": 48.136595,
+      "lon": 16.570988,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1912.0,
+      "lat": 48.13396,
+      "lon": 16.582231,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1911.0,
+      "lat": 48.132299,
+      "lon": 16.59502,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1910.0,
+      "lat": 48.132528,
+      "lon": 16.610985,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1909.0,
+      "lat": 48.130351,
+      "lon": 16.626692,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1908.0,
+      "lat": 48.129263,
+      "lon": 16.640425,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1907.0,
+      "lat": 48.127429,
+      "lon": 16.653814,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1906.0,
+      "lat": 48.124278,
+      "lon": 16.665487,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1905.0,
+      "lat": 48.121414,
+      "lon": 16.675959,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1904.0,
+      "lat": 48.118491,
+      "lon": 16.688833,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1903.0,
+      "lat": 48.119122,
+      "lon": 16.702051,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1902.0,
+      "lat": 48.12319,
+      "lon": 16.716299,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1901.0,
+      "lat": 48.128461,
+      "lon": 16.733808,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1899.0,
+      "lat": 48.125424,
+      "lon": 16.760244,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1898.0,
+      "lat": 48.12296,
+      "lon": 16.76754,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1897.0,
+      "lat": 48.120554,
+      "lon": 16.775179,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1896.0,
+      "lat": 48.117918,
+      "lon": 16.783676,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1892.0,
+      "lat": 48.122789,
+      "lon": 16.83569,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1891.0,
+      "lat": 48.125195,
+      "lon": 16.849508,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1890.0,
+      "lat": 48.127601,
+      "lon": 16.864529,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1889.0,
+      "lat": 48.131726,
+      "lon": 16.880836,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1888.0,
+      "lat": 48.136308,
+      "lon": 16.890106,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1887.0,
+      "lat": 48.14238,
+      "lon": 16.900406,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1886.0,
+      "lat": 48.147133,
+      "lon": 16.914911,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1885.0,
+      "lat": 48.14868,
+      "lon": 16.933451,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1884.0,
+      "lat": 48.153948,
+      "lon": 16.944694,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1883.0,
+      "lat": 48.161677,
+      "lon": 16.950445,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1882.0,
+      "lat": 48.168719,
+      "lon": 16.956625,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1881.0,
+      "lat": 48.173126,
+      "lon": 16.967525,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1880.0,
+      "lat": 48.169062,
+      "lon": 16.981602,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1879.0,
+      "lat": 48.163681,
+      "lon": 16.992073,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1878.0,
+      "lat": 48.157841,
+      "lon": 17.002287,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1877.0,
+      "lat": 48.152115,
+      "lon": 17.013359,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1876.0,
+      "lat": 48.145415,
+      "lon": 17.019968,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1875.0,
+      "lat": 48.140776,
+      "lon": 17.028294,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1874.0,
+      "lat": 48.140719,
+      "lon": 17.0434,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1873.0,
+      "lat": 48.142838,
+      "lon": 17.053699,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1872.0,
+      "lat": 48.143296,
+      "lon": 17.068462,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1871.0,
+      "lat": 48.141922,
+      "lon": 17.077818,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1870.0,
+      "lat": 48.139287,
+      "lon": 17.091379,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1869.0,
+      "lat": 48.138084,
+      "lon": 17.109232,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1868.0,
+      "lat": 48.137168,
+      "lon": 17.126913,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1867.0,
+      "lat": 48.135048,
+      "lon": 17.138071,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1866.0,
+      "lat": 48.127659,
+      "lon": 17.145367,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1865.0,
+      "lat": 48.119981,
+      "lon": 17.145023,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1864.0,
+      "lat": 48.11299,
+      "lon": 17.140989,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1863.0,
+      "lat": 48.10703,
+      "lon": 17.138329,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1862.0,
+      "lat": 48.100553,
+      "lon": 17.140217,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1859.0,
+      "lat": 48.073377,
+      "lon": 17.158756,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1858.0,
+      "lat": 48.064888,
+      "lon": 17.168198,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1857.0,
+      "lat": 48.058349,
+      "lon": 17.171459,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1855.0,
+      "lat": 48.053415,
+      "lon": 17.19326,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1854.0,
+      "lat": 48.048021,
+      "lon": 17.20459,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1853.0,
+      "lat": 48.039414,
+      "lon": 17.218666,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1850.0,
+      "lat": 48.020013,
+      "lon": 17.244903,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1845.0,
+      "lat": 47.99407,
+      "lon": 17.287962,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1840.0,
+      "lat": 47.982231,
+      "lon": 17.347264,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1835.0,
+      "lat": 47.952045,
+      "lon": 17.394917,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1830.0,
+      "lat": 47.915018,
+      "lon": 17.434954,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1825.0,
+      "lat": 47.880119,
+      "lon": 17.469929,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1820.0,
+      "lat": 47.863022,
+      "lon": 17.529968,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1819.15,
+      "lat": 47.883133,
+      "lon": 17.539898,
+      "name": "Plavebné komory Gabčíkovo",
+      "source": "lock"
+    },
+    {
+      "rkm": 1815.0,
+      "lat": 47.82305,
+      "lon": 17.558952,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1811.0,
+      "lat": 47.821803,
+      "lon": 17.607677,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1811.0,
+      "lat": 47.822924,
+      "lon": 17.609259,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1810.0,
+      "lat": 47.81542,
+      "lon": 17.616539,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1810.0,
+      "lat": 47.816315,
+      "lon": 17.617874,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1809.0,
+      "lat": 47.808345,
+      "lon": 17.624664,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1809.0,
+      "lat": 47.809825,
+      "lon": 17.627201,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1808.0,
+      "lat": 47.801681,
+      "lon": 17.6332,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1808.0,
+      "lat": 47.80303,
+      "lon": 17.635433,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1807.0,
+      "lat": 47.796413,
+      "lon": 17.645114,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1807.0,
+      "lat": 47.797625,
+      "lon": 17.646316,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1806.0,
+      "lat": 47.790273,
+      "lon": 17.654131,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1806.0,
+      "lat": 47.791861,
+      "lon": 17.655589,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1805.0,
+      "lat": 47.787595,
+      "lon": 17.668089,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1805.0,
+      "lat": 47.78581,
+      "lon": 17.665989,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1804.0,
+      "lat": 47.780061,
+      "lon": 17.676275,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1804.0,
+      "lat": 47.779382,
+      "lon": 17.675397,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1803.0,
+      "lat": 47.775199,
+      "lon": 17.687655,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1803.0,
+      "lat": 47.77606,
+      "lon": 17.688849,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1802.0,
+      "lat": 47.767432,
+      "lon": 17.693899,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1802.0,
+      "lat": 47.768884,
+      "lon": 17.696591,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1801.0,
+      "lat": 47.76112,
+      "lon": 17.703439,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1801.0,
+      "lat": 47.760425,
+      "lon": 17.702039,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1800.0,
+      "lat": 47.755069,
+      "lon": 17.71394,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1800.0,
+      "lat": 47.754152,
+      "lon": 17.713574,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1799.0,
+      "lat": 47.753824,
+      "lon": 17.727857,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1799.0,
+      "lat": 47.755425,
+      "lon": 17.728635,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1798.0,
+      "lat": 47.75165,
+      "lon": 17.740738,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1798.0,
+      "lat": 47.752574,
+      "lon": 17.74094,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1797.0,
+      "lat": 47.749976,
+      "lon": 17.753905,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1797.0,
+      "lat": 47.75206,
+      "lon": 17.754249,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1796.0,
+      "lat": 47.747767,
+      "lon": 17.767167,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1795.0,
+      "lat": 47.740789,
+      "lon": 17.776304,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1795.0,
+      "lat": 47.742716,
+      "lon": 17.77749,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1794.0,
+      "lat": 47.739374,
+      "lon": 17.790061,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1793.0,
+      "lat": 47.744303,
+      "lon": 17.802511,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1792.0,
+      "lat": 47.742764,
+      "lon": 17.815675,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1792.0,
+      "lat": 47.744133,
+      "lon": 17.816316,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1791.0,
+      "lat": 47.740192,
+      "lon": 17.828708,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1791.0,
+      "lat": 47.743403,
+      "lon": 17.828763,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1790.0,
+      "lat": 47.739697,
+      "lon": 17.843343,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1790.0,
+      "lat": 47.74156,
+      "lon": 17.842592,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1789.0,
+      "lat": 47.743901,
+      "lon": 17.855245,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1789.0,
+      "lat": 47.746704,
+      "lon": 17.854421,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1788.0,
+      "lat": 47.745719,
+      "lon": 17.868606,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1787.0,
+      "lat": 47.742653,
+      "lon": 17.880989,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1787.0,
+      "lat": 47.744151,
+      "lon": 17.88192,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1786.0,
+      "lat": 47.739418,
+      "lon": 17.89396,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1786.0,
+      "lat": 47.741717,
+      "lon": 17.893923,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1785.0,
+      "lat": 47.74126,
+      "lon": 17.907957,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1785.0,
+      "lat": 47.743852,
+      "lon": 17.905934,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1784.0,
+      "lat": 47.744149,
+      "lon": 17.919772,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1784.0,
+      "lat": 47.745711,
+      "lon": 17.920008,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1783.0,
+      "lat": 47.744223,
+      "lon": 17.933356,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1783.0,
+      "lat": 47.745526,
+      "lon": 17.933345,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1782.0,
+      "lat": 47.745341,
+      "lon": 17.945407,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1782.0,
+      "lat": 47.742925,
+      "lon": 17.948192,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1780.0,
+      "lat": 47.755884,
+      "lon": 17.966886,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1780.0,
+      "lat": 47.75891,
+      "lon": 17.965387,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1779.0,
+      "lat": 47.755508,
+      "lon": 17.979744,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1779.0,
+      "lat": 47.756758,
+      "lon": 17.980883,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1778.0,
+      "lat": 47.750206,
+      "lon": 17.990306,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1778.0,
+      "lat": 47.751546,
+      "lon": 17.991695,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1777.0,
+      "lat": 47.747417,
+      "lon": 18.002394,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1777.0,
+      "lat": 47.749627,
+      "lon": 18.00231,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1776.0,
+      "lat": 47.749869,
+      "lon": 18.014102,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1776.0,
+      "lat": 47.75157,
+      "lon": 18.012703,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1775.0,
+      "lat": 47.754469,
+      "lon": 18.025513,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1775.0,
+      "lat": 47.756268,
+      "lon": 18.023915,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1774.0,
+      "lat": 47.756591,
+      "lon": 18.038396,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1774.0,
+      "lat": 47.754714,
+      "lon": 18.038478,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1771.0,
+      "lat": 47.756355,
+      "lon": 18.079125,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1771.0,
+      "lat": 47.758647,
+      "lon": 18.079135,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1770.0,
+      "lat": 47.755731,
+      "lon": 18.092141,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1770.0,
+      "lat": 47.753745,
+      "lon": 18.092578,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1769.0,
+      "lat": 47.752973,
+      "lon": 18.105,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1769.0,
+      "lat": 47.754486,
+      "lon": 18.105638,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1768.0,
+      "lat": 47.751395,
+      "lon": 18.118455,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1768.0,
+      "lat": 47.753142,
+      "lon": 18.11877,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1767.0,
+      "lat": 47.75256,
+      "lon": 18.127664,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1767.0,
+      "lat": 47.750269,
+      "lon": 18.130446,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1767.0,
+      "lat": 47.748342,
+      "lon": 18.129901,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1765.0,
+      "lat": 47.745262,
+      "lon": 18.157,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1765.0,
+      "lat": 47.743052,
+      "lon": 18.155528,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1764.0,
+      "lat": 47.741472,
+      "lon": 18.1686,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1764.0,
+      "lat": 47.744256,
+      "lon": 18.170131,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1762.0,
+      "lat": 47.739779,
+      "lon": 18.196592,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1762.0,
+      "lat": 47.742799,
+      "lon": 18.195483,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1761.0,
+      "lat": 47.741956,
+      "lon": 18.209239,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1761.0,
+      "lat": 47.739809,
+      "lon": 18.209755,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1759.0,
+      "lat": 47.740383,
+      "lon": 18.235107,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1759.0,
+      "lat": 47.742539,
+      "lon": 18.235391,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1758.0,
+      "lat": 47.740013,
+      "lon": 18.248392,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1758.0,
+      "lat": 47.742063,
+      "lon": 18.249093,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1757.0,
+      "lat": 47.73903,
+      "lon": 18.261685,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1757.0,
+      "lat": 47.740745,
+      "lon": 18.262293,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1756.0,
+      "lat": 47.734737,
+      "lon": 18.273329,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1756.0,
+      "lat": 47.736789,
+      "lon": 18.274901,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1755.0,
+      "lat": 47.731624,
+      "lon": 18.285592,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1755.0,
+      "lat": 47.73419,
+      "lon": 18.286118,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1754.0,
+      "lat": 47.731797,
+      "lon": 18.299236,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1754.0,
+      "lat": 47.72893,
+      "lon": 18.300025,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1753.0,
+      "lat": 47.732036,
+      "lon": 18.313613,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1753.0,
+      "lat": 47.734251,
+      "lon": 18.312312,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1752.0,
+      "lat": 47.735572,
+      "lon": 18.325242,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1752.0,
+      "lat": 47.738284,
+      "lon": 18.324408,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1751.0,
+      "lat": 47.738012,
+      "lon": 18.338249,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1751.0,
+      "lat": 47.735746,
+      "lon": 18.338292,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1748.0,
+      "lat": 47.747502,
+      "lon": 18.375203,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1748.0,
+      "lat": 47.746037,
+      "lon": 18.376592,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1747.0,
+      "lat": 47.750369,
+      "lon": 18.388191,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1747.0,
+      "lat": 47.751779,
+      "lon": 18.38732,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1746.0,
+      "lat": 47.752178,
+      "lon": 18.401378,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1745.0,
+      "lat": 47.753559,
+      "lon": 18.414349,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1745.0,
+      "lat": 47.755892,
+      "lon": 18.413156,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1744.0,
+      "lat": 47.755527,
+      "lon": 18.4274,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1744.0,
+      "lat": 47.752865,
+      "lon": 18.428215,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1743.0,
+      "lat": 47.759335,
+      "lon": 18.441669,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1743.0,
+      "lat": 47.760572,
+      "lon": 18.439825,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1742.0,
+      "lat": 47.764601,
+      "lon": 18.450341,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1742.0,
+      "lat": 47.76266,
+      "lon": 18.450407,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1741.0,
+      "lat": 47.765049,
+      "lon": 18.463613,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1741.0,
+      "lat": 47.766276,
+      "lon": 18.464279,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1740.0,
+      "lat": 47.760883,
+      "lon": 18.475925,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1740.0,
+      "lat": 47.762491,
+      "lon": 18.477525,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1739.0,
+      "lat": 47.751287,
+      "lon": 18.486018,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1739.0,
+      "lat": 47.754159,
+      "lon": 18.48699,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1738.0,
+      "lat": 47.750927,
+      "lon": 18.49907,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1738.0,
+      "lat": 47.752829,
+      "lon": 18.498098,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1737.0,
+      "lat": 47.754925,
+      "lon": 18.511088,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1737.0,
+      "lat": 47.757439,
+      "lon": 18.510421,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1736.0,
+      "lat": 47.757874,
+      "lon": 18.523871,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1736.0,
+      "lat": 47.759857,
+      "lon": 18.522544,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1735.0,
+      "lat": 47.763097,
+      "lon": 18.53342,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1735.0,
+      "lat": 47.761059,
+      "lon": 18.53612,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1734.0,
+      "lat": 47.764461,
+      "lon": 18.547625,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1734.0,
+      "lat": 47.76272,
+      "lon": 18.547358,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1733.0,
+      "lat": 47.764585,
+      "lon": 18.559716,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1733.0,
+      "lat": 47.765991,
+      "lon": 18.560231,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1732.0,
+      "lat": 47.763461,
+      "lon": 18.572698,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1732.0,
+      "lat": 47.765366,
+      "lon": 18.573414,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1731.0,
+      "lat": 47.763012,
+      "lon": 18.585687,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1731.0,
+      "lat": 47.761289,
+      "lon": 18.584961,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1729.0,
+      "lat": 47.758043,
+      "lon": 18.611069,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1729.0,
+      "lat": 47.755809,
+      "lon": 18.610897,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1728.0,
+      "lat": 47.760477,
+      "lon": 18.62485,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1728.0,
+      "lat": 47.758076,
+      "lon": 18.625821,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1726.0,
+      "lat": 47.759487,
+      "lon": 18.65018,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1726.0,
+      "lat": 47.763852,
+      "lon": 18.650136,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1725.0,
+      "lat": 47.762041,
+      "lon": 18.663937,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1725.0,
+      "lat": 47.764885,
+      "lon": 18.662862,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1723.0,
+      "lat": 47.771119,
+      "lon": 18.688722,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1723.0,
+      "lat": 47.767652,
+      "lon": 18.690149,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1721.0,
+      "lat": 47.780045,
+      "lon": 18.70874,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1721.0,
+      "lat": 47.78195,
+      "lon": 18.706378,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1720.0,
+      "lat": 47.785647,
+      "lon": 18.719604,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1719.0,
+      "lat": 47.792944,
+      "lon": 18.729662,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1719.0,
+      "lat": 47.792637,
+      "lon": 18.731736,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1718.0,
+      "lat": 47.80164,
+      "lon": 18.730692,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1718.0,
+      "lat": 47.801554,
+      "lon": 18.734281,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1717.0,
+      "lat": 47.8101,
+      "lon": 18.735326,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1717.0,
+      "lat": 47.809353,
+      "lon": 18.737759,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1716.0,
+      "lat": 47.814379,
+      "lon": 18.745122,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1716.0,
+      "lat": 47.81282,
+      "lon": 18.745898,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1715.0,
+      "lat": 47.817019,
+      "lon": 18.757836,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1715.0,
+      "lat": 47.81503,
+      "lon": 18.758391,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1713.0,
+      "lat": 47.821735,
+      "lon": 18.783896,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1713.0,
+      "lat": 47.823288,
+      "lon": 18.783875,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1712.0,
+      "lat": 47.822952,
+      "lon": 18.797833,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1712.0,
+      "lat": 47.824077,
+      "lon": 18.797839,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1711.0,
+      "lat": 47.819718,
+      "lon": 18.810664,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1711.0,
+      "lat": 47.822008,
+      "lon": 18.811454,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1710.0,
+      "lat": 47.818555,
+      "lon": 18.824383,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1710.0,
+      "lat": 47.820213,
+      "lon": 18.824868,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1709.0,
+      "lat": 47.817428,
+      "lon": 18.837176,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1709.0,
+      "lat": 47.818671,
+      "lon": 18.837543,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1708.0,
+      "lat": 47.815633,
+      "lon": 18.850779,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1707.0,
+      "lat": 47.813556,
+      "lon": 18.8634,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1707.0,
+      "lat": 47.815611,
+      "lon": 18.863869,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1706.0,
+      "lat": 47.809209,
+      "lon": 18.875353,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1706.0,
+      "lat": 47.811235,
+      "lon": 18.87609,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1705.0,
+      "lat": 47.808369,
+      "lon": 18.888068,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1705.0,
+      "lat": 47.811104,
+      "lon": 18.890619,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1704.0,
+      "lat": 47.802949,
+      "lon": 18.897725,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1704.0,
+      "lat": 47.805919,
+      "lon": 18.903373,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1703.0,
+      "lat": 47.795443,
+      "lon": 18.901326,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1703.0,
+      "lat": 47.795454,
+      "lon": 18.903689,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1702.0,
+      "lat": 47.786536,
+      "lon": 18.905869,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1702.0,
+      "lat": 47.786904,
+      "lon": 18.909478,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1701.0,
+      "lat": 47.778826,
+      "lon": 18.912539,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1701.0,
+      "lat": 47.778259,
+      "lon": 18.909262,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1700.0,
+      "lat": 47.771255,
+      "lon": 18.91592,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1700.0,
+      "lat": 47.770554,
+      "lon": 18.914767,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1699.0,
+      "lat": 47.762677,
+      "lon": 18.924744,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1699.0,
+      "lat": 47.764988,
+      "lon": 18.92519,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1698.0,
+      "lat": 47.764659,
+      "lon": 18.937341,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1698.0,
+      "lat": 47.768118,
+      "lon": 18.936084,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1697.0,
+      "lat": 47.76898,
+      "lon": 18.947752,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1697.0,
+      "lat": 47.76713,
+      "lon": 18.951164,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1695.0,
+      "lat": 47.784976,
+      "lon": 18.959177,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1695.0,
+      "lat": 47.783649,
+      "lon": 18.963357,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1694.0,
+      "lat": 47.789559,
+      "lon": 18.961421,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1694.0,
+      "lat": 47.791936,
+      "lon": 18.968628,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1694.0,
+      "lat": 47.793357,
+      "lon": 18.963335,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1693.0,
+      "lat": 47.80003,
+      "lon": 18.974606,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1693.0,
+      "lat": 47.798705,
+      "lon": 18.97776,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1692.0,
+      "lat": 47.80998,
+      "lon": 18.978483,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1692.0,
+      "lat": 47.807762,
+      "lon": 18.982196,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1691.0,
+      "lat": 47.814361,
+      "lon": 18.992901,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1691.0,
+      "lat": 47.812512,
+      "lon": 18.996057,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1690.0,
+      "lat": 47.818156,
+      "lon": 19.003594,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1690.0,
+      "lat": 47.81537,
+      "lon": 19.003931,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1689.0,
+      "lat": 47.822077,
+      "lon": 19.01691,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1689.0,
+      "lat": 47.819859,
+      "lon": 19.016628,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1688.0,
+      "lat": 47.81965,
+      "lon": 19.029903,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1688.0,
+      "lat": 47.822261,
+      "lon": 19.029675,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1686.0,
+      "lat": 47.815053,
+      "lon": 19.055203,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1686.0,
+      "lat": 47.817744,
+      "lon": 19.056141,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1685.0,
+      "lat": 47.811411,
+      "lon": 19.0674,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1685.0,
+      "lat": 47.815181,
+      "lon": 19.070224,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1684.0,
+      "lat": 47.804547,
+      "lon": 19.076653,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1684.0,
+      "lat": 47.805987,
+      "lon": 19.078117,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1683.0,
+      "lat": 47.800515,
+      "lon": 19.088625,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1682.0,
+      "lat": 47.795739,
+      "lon": 19.099815,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1681.0,
+      "lat": 47.789988,
+      "lon": 19.109963,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1681.0,
+      "lat": 47.790878,
+      "lon": 19.111097,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1679.0,
+      "lat": 47.774253,
+      "lon": 19.122732,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1679.0,
+      "lat": 47.775339,
+      "lon": 19.126138,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1678.0,
+      "lat": 47.765727,
+      "lon": 19.125237,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1678.0,
+      "lat": 47.766195,
+      "lon": 19.127794,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1677.0,
+      "lat": 47.757281,
+      "lon": 19.127236,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1677.0,
+      "lat": 47.757643,
+      "lon": 19.130841,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1676.0,
+      "lat": 47.748223,
+      "lon": 19.128724,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1676.0,
+      "lat": 47.74862,
+      "lon": 19.132639,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1675.0,
+      "lat": 47.739544,
+      "lon": 19.133517,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1675.0,
+      "lat": 47.739736,
+      "lon": 19.128932,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1674.0,
+      "lat": 47.73104,
+      "lon": 19.129772,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1674.0,
+      "lat": 47.731586,
+      "lon": 19.125625,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1673.0,
+      "lat": 47.722612,
+      "lon": 19.126884,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1673.0,
+      "lat": 47.722939,
+      "lon": 19.123705,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1672.0,
+      "lat": 47.714332,
+      "lon": 19.121789,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1672.0,
+      "lat": 47.713977,
+      "lon": 19.12573,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1671.0,
+      "lat": 47.705042,
+      "lon": 19.126996,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1671.0,
+      "lat": 47.705542,
+      "lon": 19.128542,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1670.0,
+      "lat": 47.695439,
+      "lon": 19.12276,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1670.0,
+      "lat": 47.695412,
+      "lon": 19.125823,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1669.0,
+      "lat": 47.685862,
+      "lon": 19.123399,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1669.0,
+      "lat": 47.685596,
+      "lon": 19.120847,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1668.0,
+      "lat": 47.677072,
+      "lon": 19.122419,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1668.0,
+      "lat": 47.677742,
+      "lon": 19.118785,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1667.0,
+      "lat": 47.6684,
+      "lon": 19.12046,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1667.0,
+      "lat": 47.668142,
+      "lon": 19.122105,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1666.0,
+      "lat": 47.659845,
+      "lon": 19.116909,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1666.0,
+      "lat": 47.659781,
+      "lon": 19.120015,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1665.0,
+      "lat": 47.651029,
+      "lon": 19.115598,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1665.0,
+      "lat": 47.651142,
+      "lon": 19.119872,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1664.0,
+      "lat": 47.641481,
+      "lon": 19.113464,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1664.0,
+      "lat": 47.64164,
+      "lon": 19.110926,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1661.0,
+      "lat": 47.61589,
+      "lon": 19.100926,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1661.0,
+      "lat": 47.616727,
+      "lon": 19.098234,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1660.0,
+      "lat": 47.607234,
+      "lon": 19.097559,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1660.0,
+      "lat": 47.60886,
+      "lon": 19.09414,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1659.0,
+      "lat": 47.602934,
+      "lon": 19.083509,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1659.0,
+      "lat": 47.601706,
+      "lon": 19.086045,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1658.0,
+      "lat": 47.595432,
+      "lon": 19.076359,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1658.0,
+      "lat": 47.594513,
+      "lon": 19.07862,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1657.0,
+      "lat": 47.588007,
+      "lon": 19.068794,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1657.0,
+      "lat": 47.586845,
+      "lon": 19.072347,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1656.0,
+      "lat": 47.57665,
+      "lon": 19.069823,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1656.0,
+      "lat": 47.576834,
+      "lon": 19.065943,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1655.0,
+      "lat": 47.568004,
+      "lon": 19.068345,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1655.0,
+      "lat": 47.568407,
+      "lon": 19.06471,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1654.0,
+      "lat": 47.558996,
+      "lon": 19.06538,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1654.0,
+      "lat": 47.558274,
+      "lon": 19.06881,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1653.0,
+      "lat": 47.549594,
+      "lon": 19.063511,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1653.0,
+      "lat": 47.549864,
+      "lon": 19.065185,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1652.0,
+      "lat": 47.542526,
+      "lon": 19.058962,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1652.0,
+      "lat": 47.541674,
+      "lon": 19.060339,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1651.0,
+      "lat": 47.534742,
+      "lon": 19.048903,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1651.0,
+      "lat": 47.533643,
+      "lon": 19.055215,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1651.0,
+      "lat": 47.533717,
+      "lon": 19.053694,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1650.0,
+      "lat": 47.527099,
+      "lon": 19.042766,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1650.0,
+      "lat": 47.525244,
+      "lon": 19.050446,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1649.0,
+      "lat": 47.516376,
+      "lon": 19.044513,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1649.0,
+      "lat": 47.516347,
+      "lon": 19.041382,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1649.0,
+      "lat": 47.516135,
+      "lon": 19.04613,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1648.0,
+      "lat": 47.507735,
+      "lon": 19.042317,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1648.0,
+      "lat": 47.507634,
+      "lon": 19.039681,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1647.0,
+      "lat": 47.498745,
+      "lon": 19.043939,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1647.0,
+      "lat": 47.498296,
+      "lon": 19.041259,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1646.0,
+      "lat": 47.490583,
+      "lon": 19.049404,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1646.0,
+      "lat": 47.48976,
+      "lon": 19.047777,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1645.0,
+      "lat": 47.482834,
+      "lon": 19.055402,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1645.0,
+      "lat": 47.483788,
+      "lon": 19.057337,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1644.0,
+      "lat": 47.475484,
+      "lon": 19.062889,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1644.0,
+      "lat": 47.476287,
+      "lon": 19.065435,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1643.0,
+      "lat": 47.467768,
+      "lon": 19.067459,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1643.0,
+      "lat": 47.468206,
+      "lon": 19.064746,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1642.0,
+      "lat": 47.458495,
+      "lon": 19.061022,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1642.0,
+      "lat": 47.459402,
+      "lon": 19.058577,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1641.0,
+      "lat": 47.451532,
+      "lon": 19.054978,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1641.0,
+      "lat": 47.453291,
+      "lon": 19.053072,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1640.0,
+      "lat": 47.443126,
+      "lon": 19.049085,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1640.0,
+      "lat": 47.443029,
+      "lon": 19.052344,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1639.0,
+      "lat": 47.434455,
+      "lon": 19.049839,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1639.0,
+      "lat": 47.434983,
+      "lon": 19.047081,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1638.0,
+      "lat": 47.426161,
+      "lon": 19.042197,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1638.0,
+      "lat": 47.42573,
+      "lon": 19.045048,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1637.0,
+      "lat": 47.414935,
+      "lon": 19.043661,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1637.0,
+      "lat": 47.414948,
+      "lon": 19.041669,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1636.0,
+      "lat": 47.408107,
+      "lon": 19.041875,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1636.0,
+      "lat": 47.408763,
+      "lon": 19.039071,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1635.0,
+      "lat": 47.399746,
+      "lon": 19.036523,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1635.0,
+      "lat": 47.400877,
+      "lon": 19.033411,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1634.0,
+      "lat": 47.392296,
+      "lon": 19.02585,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1634.0,
+      "lat": 47.390376,
+      "lon": 19.026932,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1633.0,
+      "lat": 47.389562,
+      "lon": 19.015677,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1633.0,
+      "lat": 47.387253,
+      "lon": 19.016892,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1631.0,
+      "lat": 47.38564,
+      "lon": 18.99004,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1631.0,
+      "lat": 47.388249,
+      "lon": 18.988831,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1630.0,
+      "lat": 47.382392,
+      "lon": 18.977269,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1630.0,
+      "lat": 47.384731,
+      "lon": 18.975263,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1628.0,
+      "lat": 47.370576,
+      "lon": 18.957576,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1628.0,
+      "lat": 47.372174,
+      "lon": 18.954663,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1627.0,
+      "lat": 47.362694,
+      "lon": 18.951109,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1626.0,
+      "lat": 47.354174,
+      "lon": 18.945567,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1626.0,
+      "lat": 47.353833,
+      "lon": 18.947825,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1625.0,
+      "lat": 47.344825,
+      "lon": 18.950175,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1625.0,
+      "lat": 47.344222,
+      "lon": 18.947122,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1624.0,
+      "lat": 47.335373,
+      "lon": 18.949776,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1624.0,
+      "lat": 47.335607,
+      "lon": 18.94798,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1622.0,
+      "lat": 47.320234,
+      "lon": 18.936953,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1622.0,
+      "lat": 47.320946,
+      "lon": 18.935046,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1619.0,
+      "lat": 47.296565,
+      "lon": 18.917508,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1619.0,
+      "lat": 47.295189,
+      "lon": 18.92172,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1618.0,
+      "lat": 47.287652,
+      "lon": 18.912575,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1618.0,
+      "lat": 47.286697,
+      "lon": 18.917477,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1617.0,
+      "lat": 47.277771,
+      "lon": 18.91675,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1617.0,
+      "lat": 47.278156,
+      "lon": 18.921336,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1615.0,
+      "lat": 47.259376,
+      "lon": 18.920227,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1615.0,
+      "lat": 47.26013,
+      "lon": 18.915242,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1613.0,
+      "lat": 47.243871,
+      "lon": 18.91157,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1613.0,
+      "lat": 47.244183,
+      "lon": 18.908879,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1612.0,
+      "lat": 47.233931,
+      "lon": 18.910496,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1612.0,
+      "lat": 47.233553,
+      "lon": 18.913449,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1611.0,
+      "lat": 47.22549,
+      "lon": 18.906718,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1611.0,
+      "lat": 47.225346,
+      "lon": 18.910044,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1610.0,
+      "lat": 47.217819,
+      "lon": 18.899836,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1608.0,
+      "lat": 47.202643,
+      "lon": 18.88506,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1608.0,
+      "lat": 47.203848,
+      "lon": 18.881609,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1607.0,
+      "lat": 47.194005,
+      "lon": 18.880603,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1607.0,
+      "lat": 47.194367,
+      "lon": 18.877487,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1606.0,
+      "lat": 47.184787,
+      "lon": 18.878933,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1606.0,
+      "lat": 47.184753,
+      "lon": 18.875912,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1605.0,
+      "lat": 47.176423,
+      "lon": 18.877771,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1605.0,
+      "lat": 47.17693,
+      "lon": 18.874734,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1604.0,
+      "lat": 47.167712,
+      "lon": 18.873564,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1604.0,
+      "lat": 47.166686,
+      "lon": 18.878473,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1603.0,
+      "lat": 47.158439,
+      "lon": 18.871778,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1603.0,
+      "lat": 47.158408,
+      "lon": 18.869037,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1602.0,
+      "lat": 47.149347,
+      "lon": 18.872619,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1602.0,
+      "lat": 47.149597,
+      "lon": 18.877973,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1601.0,
+      "lat": 47.140267,
+      "lon": 18.875059,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1601.0,
+      "lat": 47.140968,
+      "lon": 18.879817,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1600.0,
+      "lat": 47.131279,
+      "lon": 18.878483,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1600.0,
+      "lat": 47.132111,
+      "lon": 18.883005,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1599.0,
+      "lat": 47.122625,
+      "lon": 18.881163,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1599.0,
+      "lat": 47.123087,
+      "lon": 18.885796,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1598.0,
+      "lat": 47.114256,
+      "lon": 18.883493,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1598.0,
+      "lat": 47.114758,
+      "lon": 18.887934,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1597.0,
+      "lat": 47.105547,
+      "lon": 18.886253,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1597.0,
+      "lat": 47.105182,
+      "lon": 18.883389,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1596.0,
+      "lat": 47.096215,
+      "lon": 18.886577,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1596.0,
+      "lat": 47.096628,
+      "lon": 18.88939,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1595.0,
+      "lat": 47.087697,
+      "lon": 18.892567,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1595.0,
+      "lat": 47.087254,
+      "lon": 18.889918,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1594.0,
+      "lat": 47.077753,
+      "lon": 18.894103,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1594.0,
+      "lat": 47.078406,
+      "lon": 18.896089,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1593.0,
+      "lat": 47.069617,
+      "lon": 18.900813,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1593.0,
+      "lat": 47.071275,
+      "lon": 18.903197,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1592.0,
+      "lat": 47.064463,
+      "lon": 18.912374,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1592.0,
+      "lat": 47.065934,
+      "lon": 18.914126,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1590.0,
+      "lat": 47.055412,
+      "lon": 18.936658,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1589.0,
+      "lat": 47.050164,
+      "lon": 18.946998,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1589.0,
+      "lat": 47.051005,
+      "lon": 18.948465,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1588.0,
+      "lat": 47.043941,
+      "lon": 18.954295,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1588.0,
+      "lat": 47.045003,
+      "lon": 18.956069,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1587.0,
+      "lat": 47.035938,
+      "lon": 18.962957,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1587.0,
+      "lat": 47.036924,
+      "lon": 18.96507,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1586.0,
+      "lat": 47.027456,
+      "lon": 18.969218,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1586.0,
+      "lat": 47.027918,
+      "lon": 18.972393,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1585.0,
+      "lat": 47.018043,
+      "lon": 18.970456,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1585.0,
+      "lat": 47.017908,
+      "lon": 18.972367,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1584.0,
+      "lat": 47.009195,
+      "lon": 18.967157,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1584.0,
+      "lat": 47.008245,
+      "lon": 18.969961,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1583.0,
+      "lat": 47.001222,
+      "lon": 18.960593,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1583.0,
+      "lat": 47.000823,
+      "lon": 18.96279,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1582.0,
+      "lat": 46.99359,
+      "lon": 18.953428,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1582.0,
+      "lat": 46.993098,
+      "lon": 18.955547,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1581.0,
+      "lat": 46.983853,
+      "lon": 18.946227,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1581.0,
+      "lat": 46.984085,
+      "lon": 18.949424,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1580.0,
+      "lat": 46.975664,
+      "lon": 18.949321,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1580.0,
+      "lat": 46.975407,
+      "lon": 18.947423,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1579.0,
+      "lat": 46.967055,
+      "lon": 18.952399,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1579.0,
+      "lat": 46.966574,
+      "lon": 18.950671,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1578.0,
+      "lat": 46.95899,
+      "lon": 18.957136,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1577.0,
+      "lat": 46.949118,
+      "lon": 18.959211,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1577.0,
+      "lat": 46.950468,
+      "lon": 18.962179,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1576.0,
+      "lat": 46.941221,
+      "lon": 18.96544,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1576.0,
+      "lat": 46.94065,
+      "lon": 18.960907,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1575.0,
+      "lat": 46.934357,
+      "lon": 18.966203,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1574.0,
+      "lat": 46.923589,
+      "lon": 18.965182,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1573.0,
+      "lat": 46.914806,
+      "lon": 18.963142,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1573.0,
+      "lat": 46.914312,
+      "lon": 18.96708,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1572.0,
+      "lat": 46.906477,
+      "lon": 18.959959,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1572.0,
+      "lat": 46.907731,
+      "lon": 18.954711,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1571.0,
+      "lat": 46.897744,
+      "lon": 18.953816,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1569.0,
+      "lat": 46.884976,
+      "lon": 18.939542,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1569.0,
+      "lat": 46.885589,
+      "lon": 18.938371,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1568.0,
+      "lat": 46.875593,
+      "lon": 18.931727,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1568.0,
+      "lat": 46.876639,
+      "lon": 18.928731,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1567.0,
+      "lat": 46.867657,
+      "lon": 18.925646,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1567.0,
+      "lat": 46.868259,
+      "lon": 18.922999,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1566.0,
+      "lat": 46.858243,
+      "lon": 18.923196,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1566.0,
+      "lat": 46.858334,
+      "lon": 18.920741,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1565.0,
+      "lat": 46.84947,
+      "lon": 18.925182,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1565.0,
+      "lat": 46.8488,
+      "lon": 18.920309,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1564.0,
+      "lat": 46.839722,
+      "lon": 18.924924,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1564.0,
+      "lat": 46.839638,
+      "lon": 18.920589,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1563.0,
+      "lat": 46.831317,
+      "lon": 18.924981,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1563.0,
+      "lat": 46.831274,
+      "lon": 18.921273,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1562.0,
+      "lat": 46.82296,
+      "lon": 18.925023,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1562.0,
+      "lat": 46.823072,
+      "lon": 18.92744,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1561.0,
+      "lat": 46.812684,
+      "lon": 18.926458,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1561.0,
+      "lat": 46.813852,
+      "lon": 18.929305,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1560.0,
+      "lat": 46.807865,
+      "lon": 18.938372,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1560.0,
+      "lat": 46.805874,
+      "lon": 18.936958,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1559.0,
+      "lat": 46.800266,
+      "lon": 18.947708,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1559.0,
+      "lat": 46.802667,
+      "lon": 18.950855,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1558.0,
+      "lat": 46.794977,
+      "lon": 18.953034,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1558.0,
+      "lat": 46.797241,
+      "lon": 18.957591,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1557.0,
+      "lat": 46.788365,
+      "lon": 18.963786,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1557.0,
+      "lat": 46.788994,
+      "lon": 18.96628,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1555.0,
+      "lat": 46.772288,
+      "lon": 18.978778,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1555.0,
+      "lat": 46.773142,
+      "lon": 18.980442,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1554.0,
+      "lat": 46.764615,
+      "lon": 18.984495,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1554.0,
+      "lat": 46.765218,
+      "lon": 18.987039,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1553.0,
+      "lat": 46.755446,
+      "lon": 18.987136,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1553.0,
+      "lat": 46.755612,
+      "lon": 18.99054,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1552.0,
+      "lat": 46.746278,
+      "lon": 18.986563,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1552.0,
+      "lat": 46.746156,
+      "lon": 18.98889,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1551.0,
+      "lat": 46.737419,
+      "lon": 18.986214,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1551.0,
+      "lat": 46.737696,
+      "lon": 18.989993,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1550.0,
+      "lat": 46.729008,
+      "lon": 18.989869,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1550.0,
+      "lat": 46.730113,
+      "lon": 18.994109,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1549.0,
+      "lat": 46.720082,
+      "lon": 18.992214,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1549.0,
+      "lat": 46.721634,
+      "lon": 18.995369,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1548.0,
+      "lat": 46.714104,
+      "lon": 19.004428,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1548.0,
+      "lat": 46.715939,
+      "lon": 19.008384,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1547.0,
+      "lat": 46.705448,
+      "lon": 19.009306,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1547.0,
+      "lat": 46.705668,
+      "lon": 19.011585,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1546.0,
+      "lat": 46.69645,
+      "lon": 19.008548,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1546.0,
+      "lat": 46.695844,
+      "lon": 19.011672,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1543.0,
+      "lat": 46.673801,
+      "lon": 18.985418,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1543.0,
+      "lat": 46.67598,
+      "lon": 18.981456,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1539.0,
+      "lat": 46.644634,
+      "lon": 18.954108,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1539.0,
+      "lat": 46.642725,
+      "lon": 18.956723,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1538.0,
+      "lat": 46.638499,
+      "lon": 18.944984,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1538.0,
+      "lat": 46.639992,
+      "lon": 18.943875,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1537.0,
+      "lat": 46.636194,
+      "lon": 18.931889,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1537.0,
+      "lat": 46.634462,
+      "lon": 18.93266,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1536.0,
+      "lat": 46.635054,
+      "lon": 18.917882,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1536.0,
+      "lat": 46.633934,
+      "lon": 18.917781,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1535.0,
+      "lat": 46.636346,
+      "lon": 18.905004,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1535.0,
+      "lat": 46.634648,
+      "lon": 18.904676,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1534.0,
+      "lat": 46.637474,
+      "lon": 18.893935,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1534.0,
+      "lat": 46.63471,
+      "lon": 18.893754,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1533.0,
+      "lat": 46.635277,
+      "lon": 18.883227,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1533.0,
+      "lat": 46.633336,
+      "lon": 18.885285,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1532.0,
+      "lat": 46.630783,
+      "lon": 18.873174,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1532.0,
+      "lat": 46.629404,
+      "lon": 18.875742,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1531.0,
+      "lat": 46.623767,
+      "lon": 18.86596,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1531.0,
+      "lat": 46.622622,
+      "lon": 18.868094,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1530.0,
+      "lat": 46.614643,
+      "lon": 18.859776,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1530.0,
+      "lat": 46.615515,
+      "lon": 18.857194,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1529.0,
+      "lat": 46.606357,
+      "lon": 18.857182,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1529.0,
+      "lat": 46.606326,
+      "lon": 18.855652,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1528.0,
+      "lat": 46.596791,
+      "lon": 18.860654,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1528.0,
+      "lat": 46.596259,
+      "lon": 18.858417,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1527.0,
+      "lat": 46.588749,
+      "lon": 18.867463,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1527.0,
+      "lat": 46.58809,
+      "lon": 18.866409,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1526.0,
+      "lat": 46.583922,
+      "lon": 18.873813,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1526.0,
+      "lat": 46.582675,
+      "lon": 18.872001,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1525.0,
+      "lat": 46.575634,
+      "lon": 18.886808,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1524.0,
+      "lat": 46.567736,
+      "lon": 18.893504,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1524.0,
+      "lat": 46.568082,
+      "lon": 18.894917,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1523.0,
+      "lat": 46.559548,
+      "lon": 18.896648,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1523.0,
+      "lat": 46.559789,
+      "lon": 18.898193,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1522.0,
+      "lat": 46.550226,
+      "lon": 18.898317,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1522.0,
+      "lat": 46.550308,
+      "lon": 18.900295,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1521.0,
+      "lat": 46.5415,
+      "lon": 18.897645,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1521.0,
+      "lat": 46.541233,
+      "lon": 18.900511,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1519.0,
+      "lat": 46.522941,
+      "lon": 18.8917,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1519.0,
+      "lat": 46.5231,
+      "lon": 18.894372,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1518.0,
+      "lat": 46.514176,
+      "lon": 18.897296,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1518.0,
+      "lat": 46.513475,
+      "lon": 18.894726,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1517.0,
+      "lat": 46.506206,
+      "lon": 18.903618,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1517.0,
+      "lat": 46.505229,
+      "lon": 18.901535,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1516.0,
+      "lat": 46.499283,
+      "lon": 18.910559,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1516.0,
+      "lat": 46.500751,
+      "lon": 18.913833,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1515.0,
+      "lat": 46.490962,
+      "lon": 18.918726,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1515.0,
+      "lat": 46.491897,
+      "lon": 18.921165,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1514.0,
+      "lat": 46.482529,
+      "lon": 18.922469,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1514.0,
+      "lat": 46.482804,
+      "lon": 18.924219,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1513.0,
+      "lat": 46.473892,
+      "lon": 18.923179,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1513.0,
+      "lat": 46.473767,
+      "lon": 18.925746,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1510.0,
+      "lat": 46.447451,
+      "lon": 18.919631,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1510.0,
+      "lat": 46.447055,
+      "lon": 18.922238,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1509.0,
+      "lat": 46.438534,
+      "lon": 18.915019,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1507.0,
+      "lat": 46.422497,
+      "lon": 18.897408,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1507.0,
+      "lat": 46.42318,
+      "lon": 18.896106,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1506.0,
+      "lat": 46.416379,
+      "lon": 18.891368,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1506.0,
+      "lat": 46.417091,
+      "lon": 18.889668,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1505.0,
+      "lat": 46.408715,
+      "lon": 18.885683,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1505.0,
+      "lat": 46.409101,
+      "lon": 18.884031,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1504.0,
+      "lat": 46.399065,
+      "lon": 18.883593,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1504.0,
+      "lat": 46.399166,
+      "lon": 18.881917,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1503.0,
+      "lat": 46.389572,
+      "lon": 18.885319,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1503.0,
+      "lat": 46.389245,
+      "lon": 18.883496,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1502.0,
+      "lat": 46.379843,
+      "lon": 18.887469,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1502.0,
+      "lat": 46.380723,
+      "lon": 18.889983,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1501.0,
+      "lat": 46.372132,
+      "lon": 18.894867,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1501.0,
+      "lat": 46.372551,
+      "lon": 18.897188,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1500.0,
+      "lat": 46.363036,
+      "lon": 18.896641,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1500.0,
+      "lat": 46.363078,
+      "lon": 18.898463,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1499.0,
+      "lat": 46.354568,
+      "lon": 18.896507,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1499.0,
+      "lat": 46.354558,
+      "lon": 18.898402,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1498.0,
+      "lat": 46.343838,
+      "lon": 18.891992,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1498.0,
+      "lat": 46.343838,
+      "lon": 18.896031,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1497.0,
+      "lat": 46.336731,
+      "lon": 18.897288,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1497.0,
+      "lat": 46.336302,
+      "lon": 18.894883,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1496.0,
+      "lat": 46.326513,
+      "lon": 18.903898,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1496.0,
+      "lat": 46.325713,
+      "lon": 18.902237,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1495.0,
+      "lat": 46.321942,
+      "lon": 18.90952,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1495.0,
+      "lat": 46.320881,
+      "lon": 18.908098,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1494.0,
+      "lat": 46.314852,
+      "lon": 18.921104,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1494.0,
+      "lat": 46.316052,
+      "lon": 18.92283,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1493.0,
+      "lat": 46.305275,
+      "lon": 18.923424,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1493.0,
+      "lat": 46.305044,
+      "lon": 18.924925,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1492.0,
+      "lat": 46.296825,
+      "lon": 18.920871,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1492.0,
+      "lat": 46.296435,
+      "lon": 18.922561,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1491.0,
+      "lat": 46.28867,
+      "lon": 18.912881,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1491.0,
+      "lat": 46.288066,
+      "lon": 18.914817,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1490.0,
+      "lat": 46.279569,
+      "lon": 18.911083,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1490.0,
+      "lat": 46.279791,
+      "lon": 18.909388,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1489.0,
+      "lat": 46.271479,
+      "lon": 18.91028,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1489.0,
+      "lat": 46.271447,
+      "lon": 18.908521,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1488.0,
+      "lat": 46.260453,
+      "lon": 18.913103,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1488.0,
+      "lat": 46.260008,
+      "lon": 18.909575,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1487.0,
+      "lat": 46.252498,
+      "lon": 18.914501,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1487.0,
+      "lat": 46.252533,
+      "lon": 18.916523,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1486.0,
+      "lat": 46.243145,
+      "lon": 18.913212,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1486.0,
+      "lat": 46.242834,
+      "lon": 18.915621,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1485.0,
+      "lat": 46.23618,
+      "lon": 18.9112,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1485.0,
+      "lat": 46.235501,
+      "lon": 18.915439,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1484.0,
+      "lat": 46.225299,
+      "lon": 18.906855,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1484.0,
+      "lat": 46.2253,
+      "lon": 18.905274,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1483.0,
+      "lat": 46.215718,
+      "lon": 18.908822,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1483.0,
+      "lat": 46.215198,
+      "lon": 18.907467,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1482.0,
+      "lat": 46.207964,
+      "lon": 18.916475,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1482.0,
+      "lat": 46.206501,
+      "lon": 18.91378,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1481.0,
+      "lat": 46.200575,
+      "lon": 18.924076,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1481.0,
+      "lat": 46.201224,
+      "lon": 18.925878,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1480.0,
+      "lat": 46.191096,
+      "lon": 18.927914,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1480.0,
+      "lat": 46.190931,
+      "lon": 18.929702,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1479.0,
+      "lat": 46.181208,
+      "lon": 18.924492,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1479.0,
+      "lat": 46.180817,
+      "lon": 18.926126,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1478.0,
+      "lat": 46.17441,
+      "lon": 18.918974,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1478.0,
+      "lat": 46.173692,
+      "lon": 18.920224,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1477.0,
+      "lat": 46.168678,
+      "lon": 18.906928,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1477.0,
+      "lat": 46.167612,
+      "lon": 18.907527,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1476.0,
+      "lat": 46.166502,
+      "lon": 18.892401,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1476.0,
+      "lat": 46.165236,
+      "lon": 18.892509,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1475.0,
+      "lat": 46.16565,
+      "lon": 18.87859,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1475.0,
+      "lat": 46.1676,
+      "lon": 18.879345,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1474.0,
+      "lat": 46.171079,
+      "lon": 18.866597,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1473.0,
+      "lat": 46.173741,
+      "lon": 18.854955,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1473.0,
+      "lat": 46.174988,
+      "lon": 18.85508,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1472.0,
+      "lat": 46.170994,
+      "lon": 18.844098,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1472.0,
+      "lat": 46.171867,
+      "lon": 18.842956,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1471.0,
+      "lat": 46.163091,
+      "lon": 18.839172,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1471.0,
+      "lat": 46.163302,
+      "lon": 18.837186,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1470.0,
+      "lat": 46.151111,
+      "lon": 18.84065,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1470.0,
+      "lat": 46.151218,
+      "lon": 18.842288,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1469.0,
+      "lat": 46.141168,
+      "lon": 18.839385,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1469.0,
+      "lat": 46.140815,
+      "lon": 18.840903,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1468.0,
+      "lat": 46.133323,
+      "lon": 18.832739,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1468.0,
+      "lat": 46.13472,
+      "lon": 18.831197,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1467.0,
+      "lat": 46.126579,
+      "lon": 18.818599,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1467.0,
+      "lat": 46.127792,
+      "lon": 18.816582,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1466.0,
+      "lat": 46.120205,
+      "lon": 18.811808,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1466.0,
+      "lat": 46.12115,
+      "lon": 18.809836,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1465.0,
+      "lat": 46.109563,
+      "lon": 18.803884,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1465.0,
+      "lat": 46.108657,
+      "lon": 18.807584,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1464.0,
+      "lat": 46.102858,
+      "lon": 18.797198,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1464.0,
+      "lat": 46.101999,
+      "lon": 18.798133,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1463.0,
+      "lat": 46.100063,
+      "lon": 18.788986,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1463.0,
+      "lat": 46.09869,
+      "lon": 18.789426,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1462.0,
+      "lat": 46.09807,
+      "lon": 18.777431,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1462.0,
+      "lat": 46.095847,
+      "lon": 18.77871,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1461.0,
+      "lat": 46.092613,
+      "lon": 18.768256,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1461.0,
+      "lat": 46.091497,
+      "lon": 18.771213,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1460.0,
+      "lat": 46.083488,
+      "lon": 18.762024,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1460.0,
+      "lat": 46.083149,
+      "lon": 18.763744,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1459.0,
+      "lat": 46.0742,
+      "lon": 18.766134,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1459.0,
+      "lat": 46.075227,
+      "lon": 18.760645,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1458.0,
+      "lat": 46.065631,
+      "lon": 18.756905,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1458.0,
+      "lat": 46.06519,
+      "lon": 18.759022,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1457.0,
+      "lat": 46.058286,
+      "lon": 18.751482,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1457.0,
+      "lat": 46.057577,
+      "lon": 18.752762,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1456.0,
+      "lat": 46.051474,
+      "lon": 18.741792,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1456.0,
+      "lat": 46.050231,
+      "lon": 18.7436,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1455.0,
+      "lat": 46.04573,
+      "lon": 18.732245,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1455.0,
+      "lat": 46.043308,
+      "lon": 18.734604,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1454.0,
+      "lat": 46.041299,
+      "lon": 18.72063,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1454.0,
+      "lat": 46.038888,
+      "lon": 18.722253,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1453.0,
+      "lat": 46.035525,
+      "lon": 18.711584,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1453.0,
+      "lat": 46.037866,
+      "lon": 18.710019,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1452.0,
+      "lat": 46.034932,
+      "lon": 18.696221,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1452.0,
+      "lat": 46.033979,
+      "lon": 18.69807,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1451.0,
+      "lat": 46.028315,
+      "lon": 18.687284,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1451.0,
+      "lat": 46.029396,
+      "lon": 18.685209,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1450.0,
+      "lat": 46.021494,
+      "lon": 18.682832,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1450.0,
+      "lat": 46.02179,
+      "lon": 18.680958,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1449.0,
+      "lat": 46.009511,
+      "lon": 18.681259,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1449.0,
+      "lat": 46.009935,
+      "lon": 18.683342,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1447.0,
+      "lat": 45.994928,
+      "lon": 18.695309,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1446.0,
+      "lat": 45.9891,
+      "lon": 18.705322,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1446.0,
+      "lat": 45.990309,
+      "lon": 18.706195,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1445.0,
+      "lat": 45.985475,
+      "lon": 18.7165,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1445.0,
+      "lat": 45.98433,
+      "lon": 18.715109,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1444.0,
+      "lat": 45.976401,
+      "lon": 18.726803,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1444.0,
+      "lat": 45.977201,
+      "lon": 18.728301,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1443.0,
+      "lat": 45.967062,
+      "lon": 18.734707,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1443.0,
+      "lat": 45.968004,
+      "lon": 18.736079,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1442.0,
+      "lat": 45.963623,
+      "lon": 18.742809,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1442.0,
+      "lat": 45.964665,
+      "lon": 18.743545,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1441.0,
+      "lat": 45.959596,
+      "lon": 18.752087,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1441.0,
+      "lat": 45.961445,
+      "lon": 18.753466,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1440.0,
+      "lat": 45.956755,
+      "lon": 18.764444,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1440.0,
+      "lat": 45.955971,
+      "lon": 18.763017,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1439.0,
+      "lat": 45.948836,
+      "lon": 18.768143,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1439.0,
+      "lat": 45.948878,
+      "lon": 18.769848,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1438.0,
+      "lat": 45.938709,
+      "lon": 18.774584,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1438.0,
+      "lat": 45.938064,
+      "lon": 18.77216,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1437.0,
+      "lat": 45.928946,
+      "lon": 18.778979,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1437.0,
+      "lat": 45.929735,
+      "lon": 18.780072,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1436.0,
+      "lat": 45.92454,
+      "lon": 18.784762,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1436.0,
+      "lat": 45.925754,
+      "lon": 18.785643,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1435.0,
+      "lat": 45.919533,
+      "lon": 18.792294,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1435.0,
+      "lat": 45.920474,
+      "lon": 18.793593,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1434.0,
+      "lat": 45.91212,
+      "lon": 18.804123,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1434.0,
+      "lat": 45.913579,
+      "lon": 18.806053,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1433.0,
+      "lat": 45.906509,
+      "lon": 18.813153,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1296.0,
+      "lat": 45.233558,
+      "lon": 19.421253,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1295.0,
+      "lat": 45.234163,
+      "lon": 19.431038,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1294.0,
+      "lat": 45.23513,
+      "lon": 19.439792,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1292.0,
+      "lat": 45.237305,
+      "lon": 19.456873,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1291.0,
+      "lat": 45.238212,
+      "lon": 19.470777,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1290.0,
+      "lat": 45.241053,
+      "lon": 19.496269,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1288.0,
+      "lat": 45.244799,
+      "lon": 19.503565,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1287.0,
+      "lat": 45.249453,
+      "lon": 19.515753,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1286.0,
+      "lat": 45.253803,
+      "lon": 19.528627,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1285.0,
+      "lat": 45.251326,
+      "lon": 19.546137,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1284.0,
+      "lat": 45.243349,
+      "lon": 19.556351,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1283.0,
+      "lat": 45.235069,
+      "lon": 19.560213,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1282.0,
+      "lat": 45.22836,
+      "lon": 19.563045,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1280.0,
+      "lat": 45.214636,
+      "lon": 19.571285,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1279.0,
+      "lat": 45.210585,
+      "lon": 19.582357,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1278.0,
+      "lat": 45.211492,
+      "lon": 19.597807,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1277.0,
+      "lat": 45.216148,
+      "lon": 19.610081,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1276.0,
+      "lat": 45.220561,
+      "lon": 19.624243,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1275.0,
+      "lat": 45.221589,
+      "lon": 19.636345,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1274.0,
+      "lat": 45.22177,
+      "lon": 19.649563,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1273.0,
+      "lat": 45.223342,
+      "lon": 19.661751,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1272.0,
+      "lat": 45.22443,
+      "lon": 19.672909,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1270.0,
+      "lat": 45.229327,
+      "lon": 19.694195,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1269.0,
+      "lat": 45.232228,
+      "lon": 19.706726,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1268.0,
+      "lat": 45.232289,
+      "lon": 19.719944,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1267.0,
+      "lat": 45.230596,
+      "lon": 19.738827,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1266.0,
+      "lat": 45.228662,
+      "lon": 19.755049,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1265.0,
+      "lat": 45.227876,
+      "lon": 19.764833,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1264.0,
+      "lat": 45.226969,
+      "lon": 19.774189,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1263.0,
+      "lat": 45.225156,
+      "lon": 19.786463,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1262.0,
+      "lat": 45.222859,
+      "lon": 19.799509,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1261.0,
+      "lat": 45.221045,
+      "lon": 19.811439,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1260.0,
+      "lat": 45.222375,
+      "lon": 19.819164,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1259.0,
+      "lat": 45.226607,
+      "lon": 19.835043,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1258.0,
+      "lat": 45.231212,
+      "lon": 19.845766,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1257.0,
+      "lat": 45.238575,
+      "lon": 19.856586,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1256.0,
+      "lat": 45.247277,
+      "lon": 19.86002,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1255.0,
+      "lat": 45.255857,
+      "lon": 19.857273,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1254.0,
+      "lat": 45.263591,
+      "lon": 19.862337,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1253.0,
+      "lat": 45.26492,
+      "lon": 19.874182,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1252.0,
+      "lat": 45.259603,
+      "lon": 19.886627,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1251.0,
+      "lat": 45.255132,
+      "lon": 19.898128,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1250.0,
+      "lat": 45.250721,
+      "lon": 19.907055,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1249.0,
+      "lat": 45.243228,
+      "lon": 19.914694,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1248.0,
+      "lat": 45.23519,
+      "lon": 19.918899,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1246.0,
+      "lat": 45.217267,
+      "lon": 19.934259,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1245.0,
+      "lat": 45.209618,
+      "lon": 19.94276,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1244.0,
+      "lat": 45.201393,
+      "lon": 19.950313,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1243.0,
+      "lat": 45.194498,
+      "lon": 19.95615,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1242.0,
+      "lat": 45.18857,
+      "lon": 19.963188,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1241.0,
+      "lat": 45.183731,
+      "lon": 19.972801,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1240.0,
+      "lat": 45.180222,
+      "lon": 19.983787,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1238.0,
+      "lat": 45.176229,
+      "lon": 20.005846,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1237.0,
+      "lat": 45.174051,
+      "lon": 20.018635,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1236.0,
+      "lat": 45.171267,
+      "lon": 20.032539,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1235.0,
+      "lat": 45.169633,
+      "lon": 20.044041,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1234.0,
+      "lat": 45.169754,
+      "lon": 20.057173,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1233.0,
+      "lat": 45.169997,
+      "lon": 20.068073,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1232.0,
+      "lat": 45.169875,
+      "lon": 20.081034,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1230.0,
+      "lat": 45.171993,
+      "lon": 20.102062,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1229.0,
+      "lat": 45.171691,
+      "lon": 20.114765,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1228.0,
+      "lat": 45.171146,
+      "lon": 20.128841,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1227.0,
+      "lat": 45.174353,
+      "lon": 20.141373,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1226.0,
+      "lat": 45.177983,
+      "lon": 20.151586,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1225.0,
+      "lat": 45.181008,
+      "lon": 20.162229,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1224.0,
+      "lat": 45.182763,
+      "lon": 20.170984,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1223.0,
+      "lat": 45.183005,
+      "lon": 20.188579,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1222.0,
+      "lat": 45.176713,
+      "lon": 20.203943,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1221.0,
+      "lat": 45.170965,
+      "lon": 20.214243,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1220.0,
+      "lat": 45.166971,
+      "lon": 20.225143,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1219.0,
+      "lat": 45.163461,
+      "lon": 20.23613,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1218.0,
+      "lat": 45.156259,
+      "lon": 20.246086,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1217.0,
+      "lat": 45.14954,
+      "lon": 20.25527,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1216.0,
+      "lat": 45.143729,
+      "lon": 20.262222,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1215.0,
+      "lat": 45.138522,
+      "lon": 20.269518,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1214.0,
+      "lat": 45.133981,
+      "lon": 20.276813,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1213.0,
+      "lat": 45.125503,
+      "lon": 20.284882,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1211.0,
+      "lat": 45.103214,
+      "lon": 20.297155,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1210.0,
+      "lat": 45.095943,
+      "lon": 20.304623,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1209.0,
+      "lat": 45.088611,
+      "lon": 20.313635,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1208.0,
+      "lat": 45.082915,
+      "lon": 20.3193,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1206.0,
+      "lat": 45.071339,
+      "lon": 20.337581,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1205.0,
+      "lat": 45.065155,
+      "lon": 20.343332,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1204.0,
+      "lat": 45.059699,
+      "lon": 20.348825,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1203.0,
+      "lat": 45.053818,
+      "lon": 20.352259,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1202.0,
+      "lat": 45.045328,
+      "lon": 20.359211,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1201.0,
+      "lat": 45.034776,
+      "lon": 20.361528,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1200.0,
+      "lat": 45.023553,
+      "lon": 20.365734,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1199.0,
+      "lat": 45.011904,
+      "lon": 20.363417,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1198.0,
+      "lat": 45.004804,
+      "lon": 20.353031,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1197.0,
+      "lat": 45.00007,
+      "lon": 20.336122,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1195.0,
+      "lat": 44.992969,
+      "lon": 20.302219,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1194.0,
+      "lat": 44.988356,
+      "lon": 20.296726,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1193.0,
+      "lat": 44.982164,
+      "lon": 20.291576,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1192.0,
+      "lat": 44.97415,
+      "lon": 20.28883,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1191.0,
+      "lat": 44.965891,
+      "lon": 20.288658,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1190.0,
+      "lat": 44.958239,
+      "lon": 20.29089,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1189.0,
+      "lat": 44.951558,
+      "lon": 20.294666,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1187.0,
+      "lat": 44.939651,
+      "lon": 20.304451,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1186.0,
+      "lat": 44.934608,
+      "lon": 20.310974,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1185.0,
+      "lat": 44.926891,
+      "lon": 20.321016,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1184.0,
+      "lat": 44.919841,
+      "lon": 20.328484,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1183.0,
+      "lat": 44.911271,
+      "lon": 20.336037,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1182.0,
+      "lat": 44.901605,
+      "lon": 20.343418,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1181.0,
+      "lat": 44.893215,
+      "lon": 20.349598,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1179.0,
+      "lat": 44.884398,
+      "lon": 20.355177,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1178.0,
+      "lat": 44.875822,
+      "lon": 20.362816,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1177.0,
+      "lat": 44.869983,
+      "lon": 20.372601,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1176.0,
+      "lat": 44.8639,
+      "lon": 20.383673,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1175.0,
+      "lat": 44.859702,
+      "lon": 20.392857,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1174.0,
+      "lat": 44.856051,
+      "lon": 20.404272,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1173.0,
+      "lat": 44.852279,
+      "lon": 20.415001,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1172.0,
+      "lat": 44.845525,
+      "lon": 20.426588,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1171.0,
+      "lat": 44.841386,
+      "lon": 20.437059,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1170.0,
+      "lat": 44.837248,
+      "lon": 20.448303,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1169.0,
+      "lat": 44.832317,
+      "lon": 20.465469,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1167.0,
+      "lat": 44.830491,
+      "lon": 20.485039,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1166.0,
+      "lat": 44.82903,
+      "lon": 20.499115,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1164.0,
+      "lat": 44.829883,
+      "lon": 20.525207,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1163.0,
+      "lat": 44.832622,
+      "lon": 20.53585,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1162.0,
+      "lat": 44.836274,
+      "lon": 20.54512,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1160.0,
+      "lat": 44.845585,
+      "lon": 20.561857,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1159.0,
+      "lat": 44.849358,
+      "lon": 20.574646,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1158.0,
+      "lat": 44.853374,
+      "lon": 20.587521,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1157.0,
+      "lat": 44.8552,
+      "lon": 20.598078,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1156.0,
+      "lat": 44.854956,
+      "lon": 20.610094,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1155.0,
+      "lat": 44.853678,
+      "lon": 20.622454,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1154.0,
+      "lat": 44.84735,
+      "lon": 20.633268,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1153.0,
+      "lat": 44.841021,
+      "lon": 20.638161,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1152.0,
+      "lat": 44.8339,
+      "lon": 20.642195,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1151.0,
+      "lat": 44.824891,
+      "lon": 20.646829,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1150.0,
+      "lat": 44.815028,
+      "lon": 20.64331,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1149.0,
+      "lat": 44.801083,
+      "lon": 20.633268,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1148.0,
+      "lat": 44.792678,
+      "lon": 20.629234,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1146.0,
+      "lat": 44.777144,
+      "lon": 20.623655,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1145.0,
+      "lat": 44.767699,
+      "lon": 20.626659,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1144.0,
+      "lat": 44.753621,
+      "lon": 20.635929,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1143.0,
+      "lat": 44.747038,
+      "lon": 20.643911,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1141.0,
+      "lat": 44.740302,
+      "lon": 20.663309,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1140.0,
+      "lat": 44.734235,
+      "lon": 20.674124,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1139.0,
+      "lat": 44.728016,
+      "lon": 20.681763,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1137.0,
+      "lat": 44.712708,
+      "lon": 20.691805,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1136.0,
+      "lat": 44.705205,
+      "lon": 20.700731,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1132.0,
+      "lat": 44.684033,
+      "lon": 20.721159,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1131.0,
+      "lat": 44.677869,
+      "lon": 20.730686,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1128.0,
+      "lat": 44.660046,
+      "lon": 20.770512,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1126.0,
+      "lat": 44.656627,
+      "lon": 20.797376,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1125.0,
+      "lat": 44.656993,
+      "lon": 20.80965,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1124.0,
+      "lat": 44.656871,
+      "lon": 20.822525,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1123.0,
+      "lat": 44.656199,
+      "lon": 20.84012,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1120.0,
+      "lat": 44.661053,
+      "lon": 20.879173,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1117.0,
+      "lat": 44.667615,
+      "lon": 20.912218,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1116.0,
+      "lat": 44.669691,
+      "lon": 20.918484,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1115.0,
+      "lat": 44.675062,
+      "lon": 20.929298,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1113.0,
+      "lat": 44.689037,
+      "lon": 20.946035,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1112.0,
+      "lat": 44.695505,
+      "lon": 20.955906,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1111.0,
+      "lat": 44.704107,
+      "lon": 20.968866,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1109.0,
+      "lat": 44.716673,
+      "lon": 20.991526,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1107.0,
+      "lat": 44.719661,
+      "lon": 21.003542,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1106.0,
+      "lat": 44.720271,
+      "lon": 21.016588,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1104.0,
+      "lat": 44.716368,
+      "lon": 21.044311,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1103.0,
+      "lat": 44.717496,
+      "lon": 21.061478,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1102.0,
+      "lat": 44.71899,
+      "lon": 21.079245,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1101.0,
+      "lat": 44.722406,
+      "lon": 21.089973,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1100.0,
+      "lat": 44.726552,
+      "lon": 21.100359,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1099.0,
+      "lat": 44.731126,
+      "lon": 21.113319,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1097.0,
+      "lat": 44.735333,
+      "lon": 21.124649,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1096.0,
+      "lat": 44.736796,
+      "lon": 21.134519,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1095.0,
+      "lat": 44.739479,
+      "lon": 21.147737,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1094.0,
+      "lat": 44.744295,
+      "lon": 21.157093,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1093.0,
+      "lat": 44.750574,
+      "lon": 21.165161,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1092.0,
+      "lat": 44.756364,
+      "lon": 21.170311,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1091.0,
+      "lat": 44.76258,
+      "lon": 21.178207,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1090.0,
+      "lat": 44.766481,
+      "lon": 21.191168,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1087.0,
+      "lat": 44.782505,
+      "lon": 21.224127,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1084.0,
+      "lat": 44.790729,
+      "lon": 21.250048,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1083.0,
+      "lat": 44.795236,
+      "lon": 21.26009,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1081.0,
+      "lat": 44.804798,
+      "lon": 21.282835,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1077.0,
+      "lat": 44.816307,
+      "lon": 21.314678,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1076.0,
+      "lat": 44.820934,
+      "lon": 21.329527,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1075.0,
+      "lat": 44.820934,
+      "lon": 21.350212,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1074.0,
+      "lat": 44.819473,
+      "lon": 21.367893,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1073.0,
+      "lat": 44.812897,
+      "lon": 21.379824,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1072.0,
+      "lat": 44.806564,
+      "lon": 21.38566,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1071.0,
+      "lat": 44.797003,
+      "lon": 21.388578,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1069.0,
+      "lat": 44.781165,
+      "lon": 21.393127,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1068.0,
+      "lat": 44.773976,
+      "lon": 21.405659,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1067.0,
+      "lat": 44.773184,
+      "lon": 21.422739,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1066.0,
+      "lat": 44.774098,
+      "lon": 21.434069,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1065.0,
+      "lat": 44.775316,
+      "lon": 21.450634,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1064.0,
+      "lat": 44.776047,
+      "lon": 21.462993,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1058.0,
+      "lat": 44.774585,
+      "lon": 21.532431,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1057.0,
+      "lat": 44.774037,
+      "lon": 21.544018,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1056.0,
+      "lat": 44.772209,
+      "lon": 21.553974,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1054.0,
+      "lat": 44.764043,
+      "lon": 21.574917,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1053.0,
+      "lat": 44.760508,
+      "lon": 21.584187,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1051.0,
+      "lat": 44.746977,
+      "lon": 21.599636,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1050.0,
+      "lat": 44.738686,
+      "lon": 21.606932,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1049.0,
+      "lat": 44.727345,
+      "lon": 21.611051,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1048.0,
+      "lat": 44.716246,
+      "lon": 21.614141,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1040.0,
+      "lat": 44.668653,
+      "lon": 21.683063,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1039.0,
+      "lat": 44.663647,
+      "lon": 21.69302,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1038.0,
+      "lat": 44.660961,
+      "lon": 21.702461,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1037.0,
+      "lat": 44.657054,
+      "lon": 21.708984,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1036.0,
+      "lat": 44.654123,
+      "lon": 21.717052,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1035.0,
+      "lat": 44.653391,
+      "lon": 21.726837,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1034.0,
+      "lat": 44.654978,
+      "lon": 21.740398,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1032.0,
+      "lat": 44.659496,
+      "lon": 21.764259,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1031.0,
+      "lat": 44.660961,
+      "lon": 21.784515,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1029.0,
+      "lat": 44.652292,
+      "lon": 21.814899,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1028.0,
+      "lat": 44.653757,
+      "lon": 21.828632,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1027.0,
+      "lat": 44.654367,
+      "lon": 21.838932,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1026.0,
+      "lat": 44.653269,
+      "lon": 21.85215,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1025.0,
+      "lat": 44.650216,
+      "lon": 21.868629,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1024.0,
+      "lat": 44.64704,
+      "lon": 21.884422,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1022.0,
+      "lat": 44.645514,
+      "lon": 21.907253,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1021.0,
+      "lat": 44.646307,
+      "lon": 21.915493,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1020.0,
+      "lat": 44.644109,
+      "lon": 21.925793,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1018.0,
+      "lat": 44.63843,
+      "lon": 21.939611,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1017.0,
+      "lat": 44.63617,
+      "lon": 21.946392,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1016.0,
+      "lat": 44.632627,
+      "lon": 21.959438,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1015.0,
+      "lat": 44.632994,
+      "lon": 21.970425,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1014.0,
+      "lat": 44.633116,
+      "lon": 21.987247,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1013.0,
+      "lat": 44.627374,
+      "lon": 21.996689,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1012.0,
+      "lat": 44.619188,
+      "lon": 22.002182,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1011.0,
+      "lat": 44.609168,
+      "lon": 22.004242,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1009.0,
+      "lat": 44.596213,
+      "lon": 22.022266,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1008.0,
+      "lat": 44.590467,
+      "lon": 22.026644,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1007.0,
+      "lat": 44.579831,
+      "lon": 22.025013,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1006.0,
+      "lat": 44.56962,
+      "lon": 22.025356,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1004.0,
+      "lat": 44.549745,
+      "lon": 22.034454,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1003.0,
+      "lat": 44.54479,
+      "lon": 22.040462,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1002.0,
+      "lat": 44.540324,
+      "lon": 22.049303,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1001.0,
+      "lat": 44.535491,
+      "lon": 22.057457,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 1000.0,
+      "lat": 44.531636,
+      "lon": 22.064753,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 999.0,
+      "lat": 44.524416,
+      "lon": 22.07222,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 998.0,
+      "lat": 44.516705,
+      "lon": 22.074108,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 997.0,
+      "lat": 44.511687,
+      "lon": 22.075825,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 996.0,
+      "lat": 44.505811,
+      "lon": 22.077541,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 995.0,
+      "lat": 44.499567,
+      "lon": 22.081833,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 991.0,
+      "lat": 44.479483,
+      "lon": 22.116165,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 990.0,
+      "lat": 44.471644,
+      "lon": 22.132988,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 988.0,
+      "lat": 44.476054,
+      "lon": 22.177276,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 987.0,
+      "lat": 44.486587,
+      "lon": 22.187576,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 984.0,
+      "lat": 44.519459,
+      "lon": 22.205601,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 974.0,
+      "lat": 44.586402,
+      "lon": 22.252078,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 973.0,
+      "lat": 44.590742,
+      "lon": 22.260146,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 972.0,
+      "lat": 44.599116,
+      "lon": 22.265553,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 970.0,
+      "lat": 44.616836,
+      "lon": 22.273107,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 969.0,
+      "lat": 44.625022,
+      "lon": 22.277355,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 968.0,
+      "lat": 44.63223,
+      "lon": 22.286925,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 967.0,
+      "lat": 44.636628,
+      "lon": 22.294736,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 965.0,
+      "lat": 44.6551,
+      "lon": 22.304435,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 962.0,
+      "lat": 44.667432,
+      "lon": 22.331428,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 961.0,
+      "lat": 44.669508,
+      "lon": 22.346106,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 959.0,
+      "lat": 44.673536,
+      "lon": 22.373056,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 958.0,
+      "lat": 44.677869,
+      "lon": 22.387304,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 957.0,
+      "lat": 44.68263,
+      "lon": 22.395973,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 956.0,
+      "lat": 44.68861,
+      "lon": 22.404899,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 955.0,
+      "lat": 44.696603,
+      "lon": 22.411079,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 954.0,
+      "lat": 44.704229,
+      "lon": 22.41889,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 953.0,
+      "lat": 44.70795,
+      "lon": 22.430906,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 952.0,
+      "lat": 44.709506,
+      "lon": 22.440948,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 951.0,
+      "lat": 44.711671,
+      "lon": 22.450905,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 950.0,
+      "lat": 44.711976,
+      "lon": 22.462664,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 949.0,
+      "lat": 44.709353,
+      "lon": 22.471332,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 948.0,
+      "lat": 44.704168,
+      "lon": 22.478714,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 947.0,
+      "lat": 44.699227,
+      "lon": 22.489185,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 946.0,
+      "lat": 44.692515,
+      "lon": 22.499485,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 945.0,
+      "lat": 44.681134,
+      "lon": 22.505751,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 945.0,
+      "lat": 44.685284,
+      "lon": 22.511759,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 944.0,
+      "lat": 44.674421,
+      "lon": 22.515449,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 944.0,
+      "lat": 44.680341,
+      "lon": 22.5209,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 943.0,
+      "lat": 44.670545,
+      "lon": 22.530041,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 942.95,
+      "lat": 44.671609,
+      "lon": 22.529435,
+      "name": "Brana Đerdap I / Porțile de Fier I",
+      "source": "lock"
+    },
+    {
+      "rkm": 942.0,
+      "lat": 44.66383,
+      "lon": 22.535877,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 942.0,
+      "lat": 44.668409,
+      "lon": 22.540555,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 941.0,
+      "lat": 44.662396,
+      "lon": 22.550597,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 940.0,
+      "lat": 44.657909,
+      "lon": 22.556391,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 938.0,
+      "lat": 44.642002,
+      "lon": 22.563472,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 938.0,
+      "lat": 44.64417,
+      "lon": 22.570553,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 937.0,
+      "lat": 44.637697,
+      "lon": 22.574072,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 935.0,
+      "lat": 44.625419,
+      "lon": 22.600078,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 933.0,
+      "lat": 44.613384,
+      "lon": 22.619562,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 932.0,
+      "lat": 44.613445,
+      "lon": 22.637243,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 930.0,
+      "lat": 44.616622,
+      "lon": 22.661533,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 929.0,
+      "lat": 44.615767,
+      "lon": 22.674665,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 928.0,
+      "lat": 44.615553,
+      "lon": 22.686102,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 927.0,
+      "lat": 44.612101,
+      "lon": 22.696295,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 926.0,
+      "lat": 44.606296,
+      "lon": 22.70565,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 925.0,
+      "lat": 44.599452,
+      "lon": 22.714062,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 924.0,
+      "lat": 44.592301,
+      "lon": 22.721014,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 922.0,
+      "lat": 44.58139,
+      "lon": 22.735305,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 921.0,
+      "lat": 44.575735,
+      "lon": 22.742472,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 919.0,
+      "lat": 44.562711,
+      "lon": 22.753801,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 917.0,
+      "lat": 44.542771,
+      "lon": 22.762384,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 916.0,
+      "lat": 44.537694,
+      "lon": 22.759981,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 911.0,
+      "lat": 44.517348,
+      "lon": 22.705264,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 910.0,
+      "lat": 44.515604,
+      "lon": 22.696209,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 909.0,
+      "lat": 44.51952,
+      "lon": 22.684193,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 903.0,
+      "lat": 44.549133,
+      "lon": 22.629433,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 900.0,
+      "lat": 44.549745,
+      "lon": 22.588062,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 899.0,
+      "lat": 44.546013,
+      "lon": 22.577591,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 897.0,
+      "lat": 44.534451,
+      "lon": 22.565832,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 895.0,
+      "lat": 44.514318,
+      "lon": 22.562055,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 894.0,
+      "lat": 44.506882,
+      "lon": 22.560682,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 893.0,
+      "lat": 44.498464,
+      "lon": 22.560167,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 892.0,
+      "lat": 44.490811,
+      "lon": 22.554588,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 890.0,
+      "lat": 44.476543,
+      "lon": 22.533131,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 889.0,
+      "lat": 44.473726,
+      "lon": 22.517252,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 885.0,
+      "lat": 44.479146,
+      "lon": 22.468243,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 884.0,
+      "lat": 44.473604,
+      "lon": 22.455926,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 883.0,
+      "lat": 44.465886,
+      "lon": 22.456055,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 881.0,
+      "lat": 44.446526,
+      "lon": 22.463608,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 879.0,
+      "lat": 44.432983,
+      "lon": 22.481289,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 876.0,
+      "lat": 44.409076,
+      "lon": 22.499142,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 874.0,
+      "lat": 44.392212,
+      "lon": 22.500601,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 871.0,
+      "lat": 44.366815,
+      "lon": 22.510986,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 870.0,
+      "lat": 44.358531,
+      "lon": 22.515535,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 868.0,
+      "lat": 44.339811,
+      "lon": 22.526607,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 867.0,
+      "lat": 44.332567,
+      "lon": 22.533903,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 864.0,
+      "lat": 44.309969,
+      "lon": 22.555704,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 863.5,
+      "lat": 44.310991,
+      "lon": 22.566109,
+      "name": "Brana Đerdap II (Sip / Gogoșu) / Porțile de Fier II",
+      "source": "lock"
+    },
+    {
+      "rkm": 863.0,
+      "lat": 44.300817,
+      "lon": 22.56772,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 862.0,
+      "lat": 44.298913,
+      "lon": 22.577162,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 861.0,
+      "lat": 44.298974,
+      "lon": 22.587032,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 860.0,
+      "lat": 44.29664,
+      "lon": 22.600851,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 854.0,
+      "lat": 44.287732,
+      "lon": 22.665996,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 853.0,
+      "lat": 44.281342,
+      "lon": 22.67724,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 852.0,
+      "lat": 44.273906,
+      "lon": 22.683334,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 851.0,
+      "lat": 44.264011,
+      "lon": 22.68651,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 850.0,
+      "lat": 44.256204,
+      "lon": 22.685823,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 845.0,
+      "lat": 44.208593,
+      "lon": 22.679104,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 844.0,
+      "lat": 44.20275,
+      "lon": 22.688861,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 842.0,
+      "lat": 44.199944,
+      "lon": 22.716472,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 841.0,
+      "lat": 44.1985,
+      "lon": 22.725528,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 840.0,
+      "lat": 44.195972,
+      "lon": 22.736889,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 839.0,
+      "lat": 44.192028,
+      "lon": 22.746167,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 838.0,
+      "lat": 44.18975,
+      "lon": 22.753028,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 837.0,
+      "lat": 44.185806,
+      "lon": 22.760139,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 836.0,
+      "lat": 44.180917,
+      "lon": 22.766028,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 835.0,
+      "lat": 44.173583,
+      "lon": 22.773028,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 834.0,
+      "lat": 44.166472,
+      "lon": 22.782444,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 833.0,
+      "lat": 44.161083,
+      "lon": 22.790083,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 832.0,
+      "lat": 44.154472,
+      "lon": 22.801694,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 830.0,
+      "lat": 44.146167,
+      "lon": 22.827278,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 826.0,
+      "lat": 44.129472,
+      "lon": 22.869306,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 822.0,
+      "lat": 44.106639,
+      "lon": 22.900889,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 821.0,
+      "lat": 44.101222,
+      "lon": 22.913083,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 820.0,
+      "lat": 44.096778,
+      "lon": 22.931861,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 819.0,
+      "lat": 44.095732,
+      "lon": 22.944139,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 818.0,
+      "lat": 44.094472,
+      "lon": 22.956194,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 817.0,
+      "lat": 44.094472,
+      "lon": 22.971083,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 816.0,
+      "lat": 44.094722,
+      "lon": 22.980833,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 815.0,
+      "lat": 44.093444,
+      "lon": 22.995611,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 814.0,
+      "lat": 44.091139,
+      "lon": 23.003722,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 813.0,
+      "lat": 44.089083,
+      "lon": 23.010167,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 812.0,
+      "lat": 44.08475,
+      "lon": 23.021639,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 811.0,
+      "lat": 44.081083,
+      "lon": 23.028194,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 795.0,
+      "lat": 44.004917,
+      "lon": 22.932722,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 794.0,
+      "lat": 44.002497,
+      "lon": 22.921714,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 463.0,
+      "lat": 44.002446,
+      "lon": 26.254103,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 462.0,
+      "lat": 44.006577,
+      "lon": 26.267769,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 461.0,
+      "lat": 44.012231,
+      "lon": 26.278885,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 460.0,
+      "lat": 44.018288,
+      "lon": 26.288495,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 459.0,
+      "lat": 44.023518,
+      "lon": 26.298286,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 458.0,
+      "lat": 44.026908,
+      "lon": 26.30901,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 457.0,
+      "lat": 44.029,
+      "lon": 26.319348,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 456.0,
+      "lat": 44.031181,
+      "lon": 26.330849,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 455.0,
+      "lat": 44.033315,
+      "lon": 26.343774,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 454.0,
+      "lat": 44.034975,
+      "lon": 26.35494,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 449.0,
+      "lat": 44.037158,
+      "lon": 26.410417,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 448.0,
+      "lat": 44.037314,
+      "lon": 26.42284,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 446.0,
+      "lat": 44.040439,
+      "lon": 26.450102,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 445.0,
+      "lat": 44.040775,
+      "lon": 26.459776,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 444.0,
+      "lat": 44.041787,
+      "lon": 26.474046,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 443.0,
+      "lat": 44.044036,
+      "lon": 26.486509,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 442.0,
+      "lat": 44.045676,
+      "lon": 26.496714,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 441.0,
+      "lat": 44.04839,
+      "lon": 26.509017,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 440.0,
+      "lat": 44.050374,
+      "lon": 26.519001,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 439.0,
+      "lat": 44.052339,
+      "lon": 26.530507,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 438.0,
+      "lat": 44.053273,
+      "lon": 26.540897,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 437.0,
+      "lat": 44.054276,
+      "lon": 26.554221,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 436.0,
+      "lat": 44.054461,
+      "lon": 26.568195,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 435.0,
+      "lat": 44.05389,
+      "lon": 26.579942,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 434.0,
+      "lat": 44.053745,
+      "lon": 26.592973,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 433.0,
+      "lat": 44.053525,
+      "lon": 26.605678,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 432.0,
+      "lat": 44.056109,
+      "lon": 26.615512,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 431.0,
+      "lat": 44.058149,
+      "lon": 26.627047,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 430.0,
+      "lat": 44.059883,
+      "lon": 26.638815,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 429.0,
+      "lat": 44.060942,
+      "lon": 26.6513,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 422.0,
+      "lat": 44.074103,
+      "lon": 26.734317,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 421.0,
+      "lat": 44.076085,
+      "lon": 26.745914,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 420.0,
+      "lat": 44.078049,
+      "lon": 26.759529,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 419.0,
+      "lat": 44.080569,
+      "lon": 26.771733,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 418.0,
+      "lat": 44.084824,
+      "lon": 26.783694,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 416.0,
+      "lat": 44.094406,
+      "lon": 26.804835,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 415.0,
+      "lat": 44.099434,
+      "lon": 26.815498,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 414.0,
+      "lat": 44.103362,
+      "lon": 26.826698,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 413.0,
+      "lat": 44.109449,
+      "lon": 26.837084,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 412.0,
+      "lat": 44.114216,
+      "lon": 26.846962,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 411.0,
+      "lat": 44.117958,
+      "lon": 26.857876,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 410.0,
+      "lat": 44.120358,
+      "lon": 26.869,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 409.0,
+      "lat": 44.122575,
+      "lon": 26.880207,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 408.0,
+      "lat": 44.126708,
+      "lon": 26.891331,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 407.0,
+      "lat": 44.130973,
+      "lon": 26.90065,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 406.0,
+      "lat": 44.134183,
+      "lon": 26.911592,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 405.0,
+      "lat": 44.135526,
+      "lon": 26.923498,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 404.0,
+      "lat": 44.135535,
+      "lon": 26.935994,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 403.0,
+      "lat": 44.134413,
+      "lon": 26.947433,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 402.0,
+      "lat": 44.135204,
+      "lon": 26.958541,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 401.0,
+      "lat": 44.136125,
+      "lon": 26.969859,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 399.0,
+      "lat": 44.137016,
+      "lon": 26.994156,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 398.0,
+      "lat": 44.13832,
+      "lon": 27.006225,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 395.0,
+      "lat": 44.144541,
+      "lon": 27.040422,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 390.0,
+      "lat": 44.136937,
+      "lon": 27.100539,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 389.0,
+      "lat": 44.137881,
+      "lon": 27.112108,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 388.0,
+      "lat": 44.139607,
+      "lon": 27.122348,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 387.0,
+      "lat": 44.139118,
+      "lon": 27.133843,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 386.0,
+      "lat": 44.137058,
+      "lon": 27.143812,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 383.0,
+      "lat": 44.122944,
+      "lon": 27.174729,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 382.0,
+      "lat": 44.120167,
+      "lon": 27.182588,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 381.0,
+      "lat": 44.11812,
+      "lon": 27.198221,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 380.0,
+      "lat": 44.11653,
+      "lon": 27.210479,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 379.0,
+      "lat": 44.116069,
+      "lon": 27.221953,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 378.0,
+      "lat": 44.116175,
+      "lon": 27.236337,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 377.0,
+      "lat": 44.11873,
+      "lon": 27.246706,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 376.0,
+      "lat": 44.123084,
+      "lon": 27.256651,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 375.0,
+      "lat": 44.127429,
+      "lon": 27.26746,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 372.0,
+      "lat": 44.138733,
+      "lon": 27.295704,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 371.0,
+      "lat": 44.141628,
+      "lon": 27.305746,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 369.0,
+      "lat": 44.139225,
+      "lon": 27.331495,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 368.0,
+      "lat": 44.134667,
+      "lon": 27.342138,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 367.0,
+      "lat": 44.128753,
+      "lon": 27.355013,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 366.0,
+      "lat": 44.125796,
+      "lon": 27.367802,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 365.0,
+      "lat": 44.127767,
+      "lon": 27.379045,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 364.0,
+      "lat": 44.130971,
+      "lon": 27.388573,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 363.0,
+      "lat": 44.133004,
+      "lon": 27.396812,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 362.0,
+      "lat": 44.13171,
+      "lon": 27.40797,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 359.0,
+      "lat": 44.12518,
+      "lon": 27.440758,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 358.0,
+      "lat": 44.126412,
+      "lon": 27.452002,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 357.0,
+      "lat": 44.1298,
+      "lon": 27.461271,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 356.0,
+      "lat": 44.135283,
+      "lon": 27.469511,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 355.0,
+      "lat": 44.14095,
+      "lon": 27.476807,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 353.0,
+      "lat": 44.149142,
+      "lon": 27.496891,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 352.0,
+      "lat": 44.153637,
+      "lon": 27.506761,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 350.0,
+      "lat": 44.165952,
+      "lon": 27.519035,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 348.0,
+      "lat": 44.174325,
+      "lon": 27.540493,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 347.0,
+      "lat": 44.179003,
+      "lon": 27.548733,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 346.0,
+      "lat": 44.184297,
+      "lon": 27.558861,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 345.0,
+      "lat": 44.191067,
+      "lon": 27.572422,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 343.0,
+      "lat": 44.198513,
+      "lon": 27.601175,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 342.0,
+      "lat": 44.200297,
+      "lon": 27.619286,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 341.0,
+      "lat": 44.204728,
+      "lon": 27.629585,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 340.0,
+      "lat": 44.206204,
+      "lon": 27.641087,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 339.0,
+      "lat": 44.205158,
+      "lon": 27.652931,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 338.0,
+      "lat": 44.203989,
+      "lon": 27.6616,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 337.0,
+      "lat": 44.201774,
+      "lon": 27.671127,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 336.0,
+      "lat": 44.20079,
+      "lon": 27.684345,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 334.0,
+      "lat": 44.196113,
+      "lon": 27.710266,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 332.0,
+      "lat": 44.201282,
+      "lon": 27.737045,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 329.0,
+      "lat": 44.219493,
+      "lon": 27.760391,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 327.0,
+      "lat": 44.233331,
+      "lon": 27.777729,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 326.0,
+      "lat": 44.23862,
+      "lon": 27.791033,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 325.0,
+      "lat": 44.241141,
+      "lon": 27.800817,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 324.0,
+      "lat": 44.242494,
+      "lon": 27.816954,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 323.0,
+      "lat": 44.247105,
+      "lon": 27.829313,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 322.0,
+      "lat": 44.252085,
+      "lon": 27.835064,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 321.0,
+      "lat": 44.257495,
+      "lon": 27.843389,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 320.0,
+      "lat": 44.258479,
+      "lon": 27.855921,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 317.0,
+      "lat": 44.25061,
+      "lon": 27.888965,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 316.0,
+      "lat": 44.249503,
+      "lon": 27.899952,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 315.0,
+      "lat": 44.247659,
+      "lon": 27.910423,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 314.0,
+      "lat": 44.247659,
+      "lon": 27.923984,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 313.0,
+      "lat": 44.249011,
+      "lon": 27.933082,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 312.0,
+      "lat": 44.2527,
+      "lon": 27.941665,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 311.0,
+      "lat": 44.259831,
+      "lon": 27.953167,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 310.0,
+      "lat": 44.269542,
+      "lon": 27.962608,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 309.0,
+      "lat": 44.277286,
+      "lon": 27.969131,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 308.0,
+      "lat": 44.285397,
+      "lon": 27.972908,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 305.0,
+      "lat": 44.305916,
+      "lon": 27.996426,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 304.0,
+      "lat": 44.313532,
+      "lon": 28.003807,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 303.0,
+      "lat": 44.319181,
+      "lon": 28.008957,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 302.0,
+      "lat": 44.32569,
+      "lon": 28.013935,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 301.0,
+      "lat": 44.333426,
+      "lon": 28.01445,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 298.0,
+      "lat": 44.353314,
+      "lon": 28.02063,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 297.0,
+      "lat": 44.359329,
+      "lon": 28.023033,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 296.0,
+      "lat": 44.373242,
+      "lon": 28.032517,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 295.0,
+      "lat": 44.377858,
+      "lon": 28.03801,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 294.0,
+      "lat": 44.383747,
+      "lon": 28.043804,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 293.0,
+      "lat": 44.392518,
+      "lon": 28.055734,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 292.0,
+      "lat": 44.399663,
+      "lon": 28.069296,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 291.0,
+      "lat": 44.413398,
+      "lon": 28.071399,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 290.0,
+      "lat": 44.41818,
+      "lon": 28.078265,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 289.0,
+      "lat": 44.420571,
+      "lon": 28.087878,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 288.0,
+      "lat": 44.424617,
+      "lon": 28.096161,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 287.0,
+      "lat": 44.428448,
+      "lon": 28.103113,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 286.0,
+      "lat": 44.434454,
+      "lon": 28.108521,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 285.0,
+      "lat": 44.443218,
+      "lon": 28.10895,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 284.0,
+      "lat": 44.44959,
+      "lon": 28.102727,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 283.0,
+      "lat": 44.458351,
+      "lon": 28.097234,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 280.0,
+      "lat": 44.482239,
+      "lon": 28.092642,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 279.0,
+      "lat": 44.492465,
+      "lon": 28.086119,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 277.0,
+      "lat": 44.504311,
+      "lon": 28.0617,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 276.0,
+      "lat": 44.508075,
+      "lon": 28.055563,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 275.0,
+      "lat": 44.513584,
+      "lon": 28.052473,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 274.0,
+      "lat": 44.522519,
+      "lon": 28.046207,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 272.0,
+      "lat": 44.53751,
+      "lon": 28.040113,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 271.0,
+      "lat": 44.544392,
+      "lon": 28.037195,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 270.0,
+      "lat": 44.550509,
+      "lon": 28.032389,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 269.0,
+      "lat": 44.561549,
+      "lon": 28.019514,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 268.0,
+      "lat": 44.5728,
+      "lon": 28.012261,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 267.0,
+      "lat": 44.581665,
+      "lon": 28.012948,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 265.0,
+      "lat": 44.599268,
+      "lon": 28.025737,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 264.0,
+      "lat": 44.604952,
+      "lon": 28.029642,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 263.0,
+      "lat": 44.615156,
+      "lon": 28.033504,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 262.0,
+      "lat": 44.62487,
+      "lon": 28.031874,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 261.0,
+      "lat": 44.632841,
+      "lon": 28.025222,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 260.0,
+      "lat": 44.641208,
+      "lon": 28.020158,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 259.0,
+      "lat": 44.64875,
+      "lon": 28.014364,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 258.0,
+      "lat": 44.6551,
+      "lon": 28.003721,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 257.0,
+      "lat": 44.661022,
+      "lon": 27.993336,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 256.0,
+      "lat": 44.667676,
+      "lon": 27.985611,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 255.0,
+      "lat": 44.673902,
+      "lon": 27.976341,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 254.0,
+      "lat": 44.678297,
+      "lon": 27.96896,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 252.0,
+      "lat": 44.677869,
+      "lon": 27.939606,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 251.0,
+      "lat": 44.681165,
+      "lon": 27.929993,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 249.0,
+      "lat": 44.691844,
+      "lon": 27.912827,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 247.0,
+      "lat": 44.700996,
+      "lon": 27.896347,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 246.0,
+      "lat": 44.704473,
+      "lon": 27.887421,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 245.0,
+      "lat": 44.70917,
+      "lon": 27.882013,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 244.0,
+      "lat": 44.71344,
+      "lon": 27.877722,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 242.0,
+      "lat": 44.723808,
+      "lon": 27.872314,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 239.0,
+      "lat": 44.742283,
+      "lon": 27.872486,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 238.0,
+      "lat": 44.752158,
+      "lon": 27.876177,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 237.0,
+      "lat": 44.768431,
+      "lon": 27.881584,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 236.0,
+      "lat": 44.773123,
+      "lon": 27.870684,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 234.0,
+      "lat": 44.776839,
+      "lon": 27.83618,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 233.0,
+      "lat": 44.781287,
+      "lon": 27.825108,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 232.0,
+      "lat": 44.788414,
+      "lon": 27.819614,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 231.0,
+      "lat": 44.798038,
+      "lon": 27.818155,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 229.0,
+      "lat": 44.812471,
+      "lon": 27.826481,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 228.0,
+      "lat": 44.823734,
+      "lon": 27.826824,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 227.0,
+      "lat": 44.830491,
+      "lon": 27.830086,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 226.0,
+      "lat": 44.837065,
+      "lon": 27.834806,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 225.0,
+      "lat": 44.844794,
+      "lon": 27.835579,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 224.0,
+      "lat": 44.854165,
+      "lon": 27.839613,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 223.0,
+      "lat": 44.863656,
+      "lon": 27.838325,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 222.0,
+      "lat": 44.873085,
+      "lon": 27.839527,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 221.0,
+      "lat": 44.877525,
+      "lon": 27.846479,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 218.0,
+      "lat": 44.886952,
+      "lon": 27.875233,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 216.0,
+      "lat": 44.90428,
+      "lon": 27.887764,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 215.0,
+      "lat": 44.911696,
+      "lon": 27.895403,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 213.0,
+      "lat": 44.931509,
+      "lon": 27.90184,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 212.0,
+      "lat": 44.939286,
+      "lon": 27.905273,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 210.0,
+      "lat": 44.959089,
+      "lon": 27.904758,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 209.0,
+      "lat": 44.967652,
+      "lon": 27.901754,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 207.0,
+      "lat": 44.985746,
+      "lon": 27.904329,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 206.0,
+      "lat": 44.995458,
+      "lon": 27.900381,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 205.0,
+      "lat": 45.001709,
+      "lon": 27.893257,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 204.0,
+      "lat": 45.004865,
+      "lon": 27.8827,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 203.0,
+      "lat": 45.011358,
+      "lon": 27.879352,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 202.0,
+      "lat": 45.019124,
+      "lon": 27.885017,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 201.0,
+      "lat": 45.022522,
+      "lon": 27.8936,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 200.0,
+      "lat": 45.030469,
+      "lon": 27.900295,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 199.0,
+      "lat": 45.041811,
+      "lon": 27.89978,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 198.0,
+      "lat": 45.053333,
+      "lon": 27.899866,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 197.0,
+      "lat": 45.063276,
+      "lon": 27.904158,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 196.0,
+      "lat": 45.067883,
+      "lon": 27.910337,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 195.0,
+      "lat": 45.072975,
+      "lon": 27.915573,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 194.0,
+      "lat": 45.078491,
+      "lon": 27.921667,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 193.0,
+      "lat": 45.084854,
+      "lon": 27.926388,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 190.0,
+      "lat": 45.111028,
+      "lon": 27.95145,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 188.0,
+      "lat": 45.126836,
+      "lon": 27.962694,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 187.0,
+      "lat": 45.135919,
+      "lon": 27.965784,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 186.0,
+      "lat": 45.146755,
+      "lon": 27.959776,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 185.0,
+      "lat": 45.154019,
+      "lon": 27.952566,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 184.0,
+      "lat": 45.162129,
+      "lon": 27.946472,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 183.0,
+      "lat": 45.170965,
+      "lon": 27.94321,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 182.0,
+      "lat": 45.181371,
+      "lon": 27.942781,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 181.0,
+      "lat": 45.194256,
+      "lon": 27.950249,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 180.0,
+      "lat": 45.200002,
+      "lon": 27.953339,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 179.0,
+      "lat": 45.205687,
+      "lon": 27.960291,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 178.0,
+      "lat": 45.215966,
+      "lon": 27.960462,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 177.0,
+      "lat": 45.223644,
+      "lon": 27.955141,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 176.0,
+      "lat": 45.230657,
+      "lon": 27.955656,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 175.0,
+      "lat": 45.237547,
+      "lon": 27.960377,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 174.0,
+      "lat": 45.245102,
+      "lon": 27.966556,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 172.0,
+      "lat": 45.261416,
+      "lon": 27.97368,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 171.0,
+      "lat": 45.267819,
+      "lon": 27.982178,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 169.0,
+      "lat": 45.28467,
+      "lon": 27.99222,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 166.0,
+      "lat": 45.31371,
+      "lon": 28.002005,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 163.0,
+      "lat": 45.341287,
+      "lon": 28.016424,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 162.0,
+      "lat": 45.347682,
+      "lon": 28.020029,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 161.0,
+      "lat": 45.354618,
+      "lon": 28.024235,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 158.0,
+      "lat": 45.378437,
+      "lon": 28.026295,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 155.0,
+      "lat": 45.406164,
+      "lon": 28.028183,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 152.0,
+      "lat": 45.419118,
+      "lon": 28.042731,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 151.0,
+      "lat": 45.422793,
+      "lon": 28.04934,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 150.0,
+      "lat": 45.426889,
+      "lon": 28.057151,
+      "source": "osm:seamark"
+    },
+    {
+      "rkm": 0.0,
+      "lat": 45.433099,
+      "lon": 29.6717,
+      "name": "Danube delta (mouth, downstream end of geojson)",
+      "source": "endpoint"
+    }
+  ]
+}

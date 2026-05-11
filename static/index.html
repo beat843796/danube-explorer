@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Danube Explorer</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.2.3/css/flag-icons.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <aside id="sidebar">
+      <div id="sidebar-tabs" role="tablist">
+        <button id="tab-locks" class="tab active" type="button" role="tab" aria-selected="true">Locks</button>
+        <button id="tab-vessels" class="tab" type="button" role="tab" aria-selected="false">Vessels</button>
+      </div>
+      <div id="lock-filters" class="filter-bar" role="group" aria-label="Filter locks by country"></div>
+      <ul id="lock-list"></ul>
+      <div id="vessel-filters" class="filter-bar" role="group" aria-label="Filter vessels by status" hidden></div>
+      <ul id="vessel-list" hidden></ul>
+    </aside>
+    <div id="map-area">
+      <main id="map"></main>
+      <div id="zoom-debug">zoom —</div>
+      <button
+        id="rotation-toggle"
+        type="button"
+        title="Map orientation"
+      >north</button>
+      <div id="river-slider">
+        <label for="river-km">River km</label>
+        <input id="river-km" type="range" min="0" max="2811" step="1" value="1406" />
+        <span id="river-km-value">1406</span>
+      </div>
+    </div>
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet-rotate@0.2.8/dist/leaflet-rotate-src.js"></script>
+    <script src="/app.js"></script>
+  </body>
+</html>
