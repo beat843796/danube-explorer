@@ -2,19 +2,87 @@
 .env
 .env.local
 .env.*.local
+*.pem
+*.key
 
 # Python
 __pycache__/
 *.py[cod]
+*$py.class
+*.so
+*.egg
 *.egg-info/
+build/
+dist/
+wheels/
+pip-wheel-metadata/
+.Python
+
+# Virtualenvs
 .venv/
 venv/
+env/
+ENV/
 
-# OS / editor
+# Python tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyright/
+.pytype/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+.cache/
+.ipynb_checkpoints/
+.python-version
+
+# FastAPI / Uvicorn runtime
+*.log
+logs/
+*.pid
+*.sqlite3
+*.sqlite3-journal
+*.db
+
+# Node (in case a frontend toolchain is added later)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.parcel-cache/
+.vite/
+dist-ssr/
+
+# macOS
 .DS_Store
+._*
+.AppleDouble
+.LSOverride
+Icon?
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# Editors
 *.swp
+*.swo
 .idea/
+*.iml
 .vscode/
+.history/
+*.sublime-workspace
+*.sublime-project
 
 # Tooling artifacts
 .playwright-mcp/
+.claude/
