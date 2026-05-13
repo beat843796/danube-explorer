@@ -10,7 +10,7 @@
     "Vodohospodárska výstavba š.p. (Slovak operator, Gabčíkovo)",
     "EPS / Hidroelectrica (Iron Gates joint operators)"
   ],
-  "lock_count": 18,
+  "lock_count": 19,
   "locks": [
     {
       "name": "Schleuse Bad Abbach",
@@ -319,6 +319,22 @@
       "chamber_length_m": 230,
       "chamber_width_m": 24,
       "notes": "290 MW. Last lock upstream of Vienna."
+    },
+    {
+      "name": "Schleuse Nußdorf",
+      "name_en": "Nussdorf Lock",
+      "country": "Austria",
+      "country_iso": "AT",
+      "river_km": 1929.0,
+      "latitude": 48.257375,
+      "longitude": 16.371256,
+      "address": {
+        "town": "Wien (Nußdorf)",
+        "postcode": "1190",
+        "country": "Austria"
+      },
+      "operator": "via donau",
+      "year_opened": 1899
     },
     {
       "name": "Schleuse Freudenau",

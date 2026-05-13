@@ -41,6 +41,7 @@ async def get_tracks(
     maxLng: float = Query(...),
     pageSize: int = Query(100, ge=1, le=1000),
     maxPages: int = Query(5, ge=1, le=50),
+    rectIndex: int | None = Query(None),
 ):
     headers = {"Accept": "application/json"}
     if EURIS_TOKEN:
@@ -75,7 +76,8 @@ async def get_tracks(
         if len(page) < pageSize:
             break
         skip += pageSize
-    logger.info("EuRIS: returned %d tracks for bbox", len(all_tracks))
+    rect_label = f"rect{rectIndex}" if rectIndex is not None else "bbox"
+    logger.info("EuRIS: returned %d tracks for %s", len(all_tracks), rect_label)
     return all_tracks
 
 

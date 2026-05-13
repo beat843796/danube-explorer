@@ -85,4 +85,6 @@ Desktop.ini
 
 # Tooling artifacts
 .playwright-mcp/
+playwright-report/
+test-results/
 .claude/

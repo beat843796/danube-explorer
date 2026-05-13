@@ -36,20 +36,49 @@
       </div>
       <div id="lock-filters" class="filter-bar" role="group" aria-label="Filter locks by country"></div>
       <ul id="lock-list"></ul>
-      <div id="vessel-filters" class="filter-bar" role="group" aria-label="Filter vessels by status" hidden></div>
+      <div id="vessel-filters" class="filter-bar" role="group" aria-label="Filter vessels by status" hidden>
+        <span id="vessel-count" class="filter-count" aria-live="polite"></span>
+      </div>
       <ul id="vessel-list" hidden></ul>
     </aside>
     <div id="map-area">
       <main id="map"></main>
       <div id="zoom-debug">zoom —</div>
+      <div id="km-label">
+        <span class="km-prefix">km</span>
+        <input
+          id="km-input"
+          type="text"
+          inputmode="numeric"
+          autocomplete="off"
+          spellcheck="false"
+          maxlength="4"
+          aria-label="River kilometer"
+        />
+        <button id="km-go" type="button">Go</button>
+      </div>
       <button
         id="rotation-toggle"
         type="button"
         title="Map orientation"
       >north</button>
+      <button
+        id="debug-toggle"
+        type="button"
+        title="Toggle debug overlays"
+        aria-pressed="false"
+      >debug</button>
+      <button
+        id="locks-toggle"
+        type="button"
+        title="Toggle lock pins"
+        aria-pressed="false"
+      >locks</button>
       <div id="river-slider">
         <label for="river-km">River km</label>
-        <input id="river-km" type="range" min="0" max="2811" step="1" value="1406" />
+        <button id="river-km-down" type="button" class="km-step" aria-label="Decrease 1 km" title="−1 km"><i class="fa-solid fa-chevron-left"></i></button>
+        <input id="river-km" type="range" min="0" max="2811" step="1" value="1926" />
+        <button id="river-km-up" type="button" class="km-step" aria-label="Increase 1 km" title="+1 km"><i class="fa-solid fa-chevron-right"></i></button>
         <span id="river-km-value">1406</span>
       </div>
     </div>
@@ -59,6 +88,7 @@
       crossorigin=""
     ></script>
     <script src="https://cdn.jsdelivr.net/npm/leaflet-rotate@0.2.8/dist/leaflet-rotate-src.js"></script>
+    <script src="/lockEta.js"></script>
     <script src="/app.js"></script>
   </body>
 </html>

@@ -1,0 +1,30 @@
+{
+  "name": "danube-explorer",
+  "version": "1.0.0",
+  "description": "FastAPI app that serves a static map frontend and proxies the EuRIS `tracks/bounding-box` endpoint.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:e2e": "playwright test",
+    "test:e2e:headed": "playwright test --headed",
+    "test:unit": "node --test tests/lockEta.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beat843796/danube-explorer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/beat843796/danube-explorer/issues"
+  },
+  "homepage": "https://github.com/beat843796/danube-explorer#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.60.0"
+  }
+}
