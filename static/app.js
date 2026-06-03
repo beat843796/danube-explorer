@@ -276,7 +276,11 @@ async function fetchVisibleRectangles({ force = false } = {}) {
           lastClippedKey: key,
           inFlight: null,
         });
-        return tracks;
+        // Render this rectangle's vessels as soon as it lands rather than
+        // waiting for the slowest rectangle in the batch.
+        const n = mergeAndRenderTracks(tracks);
+        scheduleSidebarRefresh();
+        return n;
       })
     );
   }
@@ -284,20 +288,11 @@ async function fetchVisibleRectangles({ force = false } = {}) {
   if (tasks.length === 0) return;
 
   const results = await Promise.allSettled(tasks);
-  const fetchedAt = Date.now();
-  let totalTracks = 0;
-  for (const res of results) {
-    if (res.status !== "fulfilled") continue;
-    for (const t of res.value) {
-      if (!t.trackId) continue;
-      totalTracks++;
-      const v = vessels.get(t.trackId) ?? { trackId: t.trackId, marker: null };
-      Object.assign(v, t, { lastSeen: fetchedAt });
-      vessels.set(t.trackId, v);
-    }
-  }
+  const totalTracks = results.reduce(
+    (sum, r) => sum + (r.status === "fulfilled" ? r.value : 0),
+    0
+  );
   console.info(`EuRIS: ${totalTracks} tracks across ${tasks.length} rect(s)`);
-  pruneAndRender();
 }
 
 function pruneAndRender() {
@@ -314,6 +309,37 @@ function pruneAndRender() {
   }
   if (vesselsTabActive) renderVesselList();
   refreshActiveLockEta();
+}
+
+// Merge a single rectangle's tracks into the vessel cache and render just
+// those markers right away, for progressive rectangle-by-rectangle fill-in.
+// TTL deletion and grey-out of stale vessels stay with the periodic
+// pruneAndRender timer.
+function mergeAndRenderTracks(tracks) {
+  const fetchedAt = Date.now();
+  let count = 0;
+  for (const t of tracks) {
+    if (!t.trackId) continue;
+    count++;
+    const v = vessels.get(t.trackId) ?? { trackId: t.trackId, marker: null };
+    Object.assign(v, t, { lastSeen: fetchedAt });
+    v.isLive = true; // just fetched
+    vessels.set(t.trackId, v);
+    renderVessel(v);
+  }
+  return count;
+}
+
+// Coalesce the sidebar list + lock-ETA refresh during a multi-rectangle load
+// so they rebuild at most once per window instead of once per rectangle.
+let sidebarRefreshTimer = null;
+function scheduleSidebarRefresh() {
+  if (sidebarRefreshTimer) return;
+  sidebarRefreshTimer = setTimeout(() => {
+    sidebarRefreshTimer = null;
+    if (vesselsTabActive) renderVesselList();
+    refreshActiveLockEta();
+  }, 200);
 }
 
 function scheduleFetch() {
